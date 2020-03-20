@@ -1,14 +1,14 @@
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
+const { BlogItems } = require('./mockData');
 
-var port = process.env.PORT || 8080;
+const port = process.env.PORT || 8080;
 
 app.set('view engine', 'ejs');
 
 app.use(express.static(__dirname + '/public'));
 
 app.use((req, res, next) => {
-	console.log(req)
 	res.setHeader('Access-Control-Allow-Origin', '*');
 	res.setHeader('Access-Control-Allow-Headers', 'origin, content-type, accept');
 	res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE");
@@ -24,8 +24,8 @@ app.get('/test-status', (req, res) => {
 	res.sendStatus(200);
 });
 
-app.get('/test-data', (req, res) => {
-	res.json({ test: true });
+app.get('/blog-items', (req, res) => {
+	res.json(BlogItems);
 });
 
 app.listen(port, function() {
