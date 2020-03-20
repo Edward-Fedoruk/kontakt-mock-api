@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const { BlogItems } = require('./mockData');
+const mockData = require('./mockData');
 
 const port = process.env.PORT || 8080;
 
@@ -25,7 +25,7 @@ app.get('/test-status', (req, res) => {
 });
 
 app.get('/blog-items', (req, res) => {
-	res.json(BlogItems);
+	res.json(mockData.BlogItems);
 });
 
 app.listen(port, function() {
