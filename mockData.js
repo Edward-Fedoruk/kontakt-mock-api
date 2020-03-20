@@ -1731,7 +1731,6 @@ module.exports = {
   promotionsSides,
   salsLeader,
   smallBanners,
-  subCategories,
   SubMenuCategories,
   wideBanners,
   newsSlides,

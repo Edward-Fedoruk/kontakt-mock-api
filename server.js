@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const mockData = require('./mockData');
+const { handlePaginationRequest } = require('./helpers');
 
 const port = process.env.PORT || 8080;
 
@@ -16,18 +17,32 @@ app.use((req, res, next) => {
 	next();
 });
 
-app.get('/', function(req, res) {
-	res.render('index');
-});
+const addRoute = (route, resData) => 
+	app.get(route, (req, res) => 
+		res.json(resData));
 
-app.get('/test-status', (req, res) => {
-	res.sendStatus(200);
-});
+const addPaginationRoute = (route, resData) => 
+	app.get(route, (req, res) => 
+		res.json(handlePaginationRequest(req.query, resData)));
 
-app.get('/blog-items', (req, res) => {
-	res.json(mockData.BlogItems);
-});
+app.get('/', (req, res) => res.render('index'));
 
-app.listen(port, function() {
-	console.log('Our app is running on http://localhost:' + port);
-});
+
+addPaginationRoute('/home-special-offers', mockData.specialOffers);
+addPaginationRoute('/new-products', mockData.newProducts);
+addPaginationRoute('/special-products', mockData.specialProducts);
+addPaginationRoute('/sales-leaders', mockData.salsLeader);
+
+
+addRoute('/general-home-slides', mockData.generalSlides);
+addRoute('/news-home-slides', mockData.newsSlides);
+addRoute('/promotions-home-slides', mockData.promotionsSides);
+addRoute('/small-banners', mockData.smallBanners);
+addRoute('/blog-items', mockData.BlogItems);
+addRoute('/submenu-categories', mockData.SubMenuCategories);
+addRoute('/wide-banners', mockData.wideBanners);
+
+
+app.listen(port, () => 
+	console.log('Our app is running on http://localhost:' + port)
+);
