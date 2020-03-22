@@ -1333,7 +1333,7 @@ const SubMenuCategories = [
       {
         id: 0,
         name: 'По Брендам',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1360,7 +1360,7 @@ const SubMenuCategories = [
       {
         id: 0,
         name: 'По Брендам1',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1387,7 +1387,7 @@ const SubMenuCategories = [
       {
         id: 0,
         name: 'По Брендам2',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1414,7 +1414,7 @@ const SubMenuCategories = [
       {
         id: 0,
         name: 'По Брендам3',
-        items: [
+        products: [
   { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
   { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
   { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1436,7 +1436,7 @@ const SubMenuCategories = [
       {
         id: 1,
         name: 'Хиты продаж3',
-        items: [
+        products: [
   { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
   { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
   { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1458,7 +1458,7 @@ const SubMenuCategories = [
       {
         id: 2,
         name: 'По цене3',
-        items: [
+        products: [
   { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
   { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
   { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1480,7 +1480,7 @@ const SubMenuCategories = [
       {
         id: 3,
         name: 'Аксессуары3',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1502,7 +1502,7 @@ const SubMenuCategories = [
       {
         id: 4,
         name: 'Аксессуары3',
-        items:[
+        products:[
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1524,7 +1524,7 @@ const SubMenuCategories = [
       {
         id: 5,
         name: 'Аксессуары3',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1546,7 +1546,7 @@ const SubMenuCategories = [
       {
         id: 6,
         name: 'Аксессуары3',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1568,7 +1568,7 @@ const SubMenuCategories = [
       {
         id: 7,
         name: 'Аксессуары3',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1590,7 +1590,7 @@ const SubMenuCategories = [
       {
         id: 8,
         name: 'Аксессуары3',
-        items:[
+        products:[
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1612,7 +1612,7 @@ const SubMenuCategories = [
       {
         id: 9,
         name: 'Аксессуары3',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1634,7 +1634,7 @@ const SubMenuCategories = [
       {
         id: 10,
         name: 'Аксессуары3',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1656,7 +1656,7 @@ const SubMenuCategories = [
       {
         id: 11,
         name: 'Аксессуары3',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1678,7 +1678,7 @@ const SubMenuCategories = [
       {
         id: 12,
         name: 'Аксессуары3',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1700,7 +1700,7 @@ const SubMenuCategories = [
       {
         id: 13,
         name: 'Аксессуары3',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1722,7 +1722,7 @@ const SubMenuCategories = [
       {
         id: 14,
         name: 'Аксессуары3',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1749,7 +1749,7 @@ const SubMenuCategories = [
       {
         id: 0,
         name: 'По Брендам4',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1771,7 +1771,7 @@ const SubMenuCategories = [
       {
         id: 1,
         name: 'Хиты продаж4',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1793,7 +1793,7 @@ const SubMenuCategories = [
       {
         id: 2,
         name: 'По цене4',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1815,7 +1815,7 @@ const SubMenuCategories = [
       {
         id: 3,
         name: 'Аксессуары4',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1842,7 +1842,7 @@ const SubMenuCategories = [
       {
         id: 0,
         name: 'По Брендам5',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1864,7 +1864,7 @@ const SubMenuCategories = [
       {
         id: 1,
         name: 'Хиты продаж5',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1886,7 +1886,7 @@ const SubMenuCategories = [
       {
         id: 2,
         name: 'По цене5',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1908,7 +1908,7 @@ const SubMenuCategories = [
       {
         id: 3,
         name: 'Аксессуары5',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1935,7 +1935,7 @@ const SubMenuCategories = [
       {
         id: 0,
         name: 'По Брендам6',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1957,7 +1957,7 @@ const SubMenuCategories = [
       {
         id: 1,
         name: 'Хиты продаж6',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1979,7 +1979,7 @@ const SubMenuCategories = [
       {
         id: 2,
         name: 'По цене6',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -2001,7 +2001,7 @@ const SubMenuCategories = [
       {
         id: 3,
         name: 'Аксессуары6',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -2028,7 +2028,7 @@ const SubMenuCategories = [
       {
         id: 0,
         name: 'По Брендам7',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -2050,7 +2050,7 @@ const SubMenuCategories = [
       {
         id: 1,
         name: 'Хиты продаж7',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -2072,7 +2072,7 @@ const SubMenuCategories = [
       {
         id: 2,
         name: 'По цене7',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -2094,7 +2094,7 @@ const SubMenuCategories = [
       {
         id: 3,
         name: 'Аксессуары7',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -2121,7 +2121,7 @@ const SubMenuCategories = [
       {
         id: 0,
         name: 'По Брендам8',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -2143,7 +2143,7 @@ const SubMenuCategories = [
       {
         id: 1,
         name: 'Хиты продаж8',
-        items:[
+        products:[
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -2164,17 +2164,45 @@ const SubMenuCategories = [
       {
         id: 2,
         name: 'По цене88',
-        items: [
-          'До 600', '1000 - 2000', '2001 - 4000', '4001 - 6000', 'От 6000',
-        ],
+        products:  [
+          { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
+          { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
+          { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
+          { name: 'Измельчители', img: '/images/ardesto_ofh-11x1@2x.png' },
+          { name: 'Пароварки', img: '/images/1368468_perfezza_peh-2077_8@2x.png' },
+          { name: 'Чайники', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
+          { name: 'Чайники', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
+          { name: 'Чайники', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
+          { name: 'Чайники', img: '/images/ardesto_ofh-11x1@2x.png' },
+          { name: 'Пароварки', img: '/images/1368468_perfezza_peh-2077_8@2x.png' },
+          { name: 'Индукционные плиты', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
+          { name: 'Чайники', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
+          { name: 'Чайники', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
+          { name: 'Чайники', img: '/images/ardesto_ofh-11x1@2x.png' },
+          { name: 'Чайники', img: '/images/1368468_perfezza_peh-2077_8@2x.png' },
+        ].map((item, id) => ({ ...item, id })),
         img: '/images/1275783_roda_aqua_inox_9@2x.png',
       },
       {
         id: 3,
         name: 'Аксессуары8',
-        items: [
-          'Чехлы для смартфонов', 'Защитные стекла и пленки', 'Портативные батареи', 'Наушники', 'Портативная акустика', 'Все аксессуары',
-        ],
+        products:  [
+          { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
+          { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
+          { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
+          { name: 'Измельчители', img: '/images/ardesto_ofh-11x1@2x.png' },
+          { name: 'Пароварки', img: '/images/1368468_perfezza_peh-2077_8@2x.png' },
+          { name: 'Чайники', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
+          { name: 'Чайники', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
+          { name: 'Чайники', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
+          { name: 'Чайники', img: '/images/ardesto_ofh-11x1@2x.png' },
+          { name: 'Пароварки', img: '/images/1368468_perfezza_peh-2077_8@2x.png' },
+          { name: 'Индукционные плиты', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
+          { name: 'Чайники', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
+          { name: 'Чайники', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
+          { name: 'Чайники', img: '/images/ardesto_ofh-11x1@2x.png' },
+          { name: 'Чайники', img: '/images/1368468_perfezza_peh-2077_8@2x.png' },
+        ].map((item, id) => ({ ...item, id })),
         img: '/images/1275783_roda_aqua_inox_9@2x.png',
       },
     ],
@@ -2185,7 +2213,7 @@ const SubMenuCategories = [
       {
         id: 0,
         name: 'По Брендам8',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -2207,7 +2235,7 @@ const SubMenuCategories = [
       {
         id: 1,
         name: 'Хиты продаж8',
-        items:[
+        products:[
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -2228,7 +2256,7 @@ const SubMenuCategories = [
       {
         id: 2,
         name: 'По цене88',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -2250,7 +2278,7 @@ const SubMenuCategories = [
       {
         id: 3,
         name: 'Аксессуары8',
-        items: [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
