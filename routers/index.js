@@ -1,0 +1,1 @@
+module.exports = require('../helpers').exportDefaltImports(__dirname, __filename);

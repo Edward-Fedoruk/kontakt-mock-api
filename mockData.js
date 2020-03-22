@@ -1724,6 +1724,37 @@ const wideBanners = [
   },
 ];
 
+const searchHistory = [
+  'iphone',
+  'something cool',
+  'pink airpods',
+  'corona virus antidot',
+];
+
+const mostPopularProducts = [
+  {
+    id: 0,
+    image: 'images/TV.png',
+    productName: 'Philips TV',
+    price: 1199.99,
+    slug: 'apple-iphone-11'
+  },
+  {
+    id: 2,
+    image: 'images/mac.png',
+    productName: 'MacBook Air 13',
+    price: 1200.99,
+    slug: 'apple-MacBook-11'
+  },
+  {
+    id: 3,
+    image: 'images/marshall.png',
+    productName: 'Philips TV',
+    price: 1199.99,
+    slug: 'Philips-TV'
+  },
+]
+
 
 module.exports = {
   BlogItems, 
@@ -1736,5 +1767,7 @@ module.exports = {
   newsSlides,
   specialProducts,
   generalSlides,
-  specialOffers
+  specialOffers,
+  searchHistory,
+  mostPopularProducts
 }

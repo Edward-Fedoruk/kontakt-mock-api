@@ -28,11 +28,28 @@ const handlePaginationRequest = (query, responseData) => {
     itemsLeft,
 	};
 
-  return response
+  return response;
 }
 
+const defaultGet = (data) => (_, res) => res.status(200).send(data);
+
+const DefaultPaginationGet = (data) => (req, res) => res.status(200).send(handlePaginationRequest(req.query, data))
+
+const exportDefaltImports = (dirName, fileName) => {
+  const { join, basename, parse } = require('path');
+
+  return require('fs')
+    .readdirSync(dirName)
+    .reduce((acc, f) => 
+      f !== basename(fileName) 
+        ? {...acc, [parse(f).name]: require(join(dirName, f))} 
+        : acc
+    , {});
+}
+
+
 module.exports = {
-  range,
-  transformToInt,
-  handlePaginationRequest
+  DefaultPaginationGet,
+  defaultGet,
+  exportDefaltImports
 }
