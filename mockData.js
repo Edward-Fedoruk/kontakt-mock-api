@@ -1415,66 +1415,66 @@ const SubMenuCategories = [
         id: 0,
         name: 'По Брендам3',
         products: [
-  { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
-  { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
-  { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
-  { name: 'Измельчители', img: '/images/ardesto_ofh-11x1@2x.png' },
-  { name: 'Пароварки', img: '/images/1368468_perfezza_peh-2077_8@2x.png' },
-  { name: 'Чайники', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
-  { name: 'Чайники', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
-  { name: 'Чайники', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
-  { name: 'Чайники', img: '/images/ardesto_ofh-11x1@2x.png' },
-  { name: 'Пароварки', img: '/images/1368468_perfezza_peh-2077_8@2x.png' },
-  { name: 'Индукционные плиты', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
-  { name: 'Чайники', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
-  { name: 'Чайники', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
-  { name: 'Чайники', img: '/images/ardesto_ofh-11x1@2x.png' },
-  { name: 'Чайники', img: '/images/1368468_perfezza_peh-2077_8@2x.png' },
-].map((item, id) => ({ ...item, id })),
+          { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
+          { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
+          { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
+          { name: 'Измельчители', img: '/images/ardesto_ofh-11x1@2x.png' },
+          { name: 'Пароварки', img: '/images/1368468_perfezza_peh-2077_8@2x.png' },
+          { name: 'Чайники', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
+          { name: 'Чайники', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
+          { name: 'Чайники', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
+          { name: 'Чайники', img: '/images/ardesto_ofh-11x1@2x.png' },
+          { name: 'Пароварки', img: '/images/1368468_perfezza_peh-2077_8@2x.png' },
+          { name: 'Индукционные плиты', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
+          { name: 'Чайники', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
+          { name: 'Чайники', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
+          { name: 'Чайники', img: '/images/ardesto_ofh-11x1@2x.png' },
+          { name: 'Чайники', img: '/images/1368468_perfezza_peh-2077_8@2x.png' },
+        ].map((item, id) => ({ ...item, id })),
         img: '/images/1275783_roda_aqua_inox_9@2x.png',
       },
       {
         id: 1,
         name: 'Хиты продаж3',
         products: [
-  { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
-  { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
-  { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
-  { name: 'Измельчители', img: '/images/ardesto_ofh-11x1@2x.png' },
-  { name: 'Пароварки', img: '/images/1368468_perfezza_peh-2077_8@2x.png' },
-  { name: 'Чайники', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
-  { name: 'Чайники', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
-  { name: 'Чайники', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
-  { name: 'Чайники', img: '/images/ardesto_ofh-11x1@2x.png' },
-  { name: 'Пароварки', img: '/images/1368468_perfezza_peh-2077_8@2x.png' },
-  { name: 'Индукционные плиты', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
-  { name: 'Чайники', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
-  { name: 'Чайники', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
-  { name: 'Чайники', img: '/images/ardesto_ofh-11x1@2x.png' },
-  { name: 'Чайники', img: '/images/1368468_perfezza_peh-2077_8@2x.png' },
-].map((item, id) => ({ ...item, id })),
+          { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
+          { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
+          { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
+          { name: 'Измельчители', img: '/images/ardesto_ofh-11x1@2x.png' },
+          { name: 'Пароварки', img: '/images/1368468_perfezza_peh-2077_8@2x.png' },
+          { name: 'Чайники', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
+          { name: 'Чайники', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
+          { name: 'Чайники', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
+          { name: 'Чайники', img: '/images/ardesto_ofh-11x1@2x.png' },
+          { name: 'Пароварки', img: '/images/1368468_perfezza_peh-2077_8@2x.png' },
+          { name: 'Индукционные плиты', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
+          { name: 'Чайники', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
+          { name: 'Чайники', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
+          { name: 'Чайники', img: '/images/ardesto_ofh-11x1@2x.png' },
+          { name: 'Чайники', img: '/images/1368468_perfezza_peh-2077_8@2x.png' },
+        ].map((item, id) => ({ ...item, id })),
         img: '/images/1275783_roda_aqua_inox_9@2x.png',
       },
       {
         id: 2,
         name: 'По цене3',
         products: [
-  { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
-  { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
-  { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
-  { name: 'Измельчители', img: '/images/ardesto_ofh-11x1@2x.png' },
-  { name: 'Пароварки', img: '/images/1368468_perfezza_peh-2077_8@2x.png' },
-  { name: 'Чайники', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
-  { name: 'Чайники', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
-  { name: 'Чайники', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
-  { name: 'Чайники', img: '/images/ardesto_ofh-11x1@2x.png' },
-  { name: 'Пароварки', img: '/images/1368468_perfezza_peh-2077_8@2x.png' },
-  { name: 'Индукционные плиты', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
-  { name: 'Чайники', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
-  { name: 'Чайники', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
-  { name: 'Чайники', img: '/images/ardesto_ofh-11x1@2x.png' },
-  { name: 'Чайники', img: '/images/1368468_perfezza_peh-2077_8@2x.png' },
-].map((item, id) => ({ ...item, id })),
+          { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
+          { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
+          { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
+          { name: 'Измельчители', img: '/images/ardesto_ofh-11x1@2x.png' },
+          { name: 'Пароварки', img: '/images/1368468_perfezza_peh-2077_8@2x.png' },
+          { name: 'Чайники', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
+          { name: 'Чайники', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
+          { name: 'Чайники', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
+          { name: 'Чайники', img: '/images/ardesto_ofh-11x1@2x.png' },
+          { name: 'Пароварки', img: '/images/1368468_perfezza_peh-2077_8@2x.png' },
+          { name: 'Индукционные плиты', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
+          { name: 'Чайники', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
+          { name: 'Чайники', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
+          { name: 'Чайники', img: '/images/ardesto_ofh-11x1@2x.png' },
+          { name: 'Чайники', img: '/images/1368468_perfezza_peh-2077_8@2x.png' },
+        ].map((item, id) => ({ ...item, id })),
         img: '/images/1275783_roda_aqua_inox_9@2x.png',
       },
       {
@@ -1502,7 +1502,7 @@ const SubMenuCategories = [
       {
         id: 4,
         name: 'Аксессуары3',
-        products:[
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -1590,7 +1590,7 @@ const SubMenuCategories = [
       {
         id: 8,
         name: 'Аксессуары3',
-        products:[
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -2143,7 +2143,7 @@ const SubMenuCategories = [
       {
         id: 1,
         name: 'Хиты продаж8',
-        products:[
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -2164,7 +2164,7 @@ const SubMenuCategories = [
       {
         id: 2,
         name: 'По цене88',
-        products:  [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -2186,7 +2186,7 @@ const SubMenuCategories = [
       {
         id: 3,
         name: 'Аксессуары8',
-        products:  [
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -2235,7 +2235,7 @@ const SubMenuCategories = [
       {
         id: 1,
         name: 'Хиты продаж8',
-        products:[
+        products: [
           { name: 'Мясорубки', img: '/images/1034980_ufo_eco_mini_1500w_5_2@2x.png' },
           { name: 'Гриль', img: '/images/_ariston_abs_vls_evo_wi-fi_pw_50_1_2@2x.png' },
           { name: 'Комбайны', img: '/images/1457064_vestfrost_vfc09va_13@2x.png' },
@@ -2341,11 +2341,484 @@ const mostPopularProducts = [
     price: 1199.99,
     slug: 'Philips-TV'
   },
-]
+];
+
+const categories = [
+  {
+    id: 0,
+    image: '/images/huawei.png',
+    title: 'Смартфони',
+    productNames: [
+      {
+        product: 'Apple',
+        id: 0,
+      },
+      {
+        product: 'Apple',
+        id: 1,
+      },
+      {
+        product: 'Apple',
+        id: 2,
+      },
+      {
+        product: 'Apple',
+        id: 3,
+      },
+      {
+        product: 'Apple',
+        id: 4,
+      },
+      {
+        product: 'Apple',
+        id: 5,
+      },
+      {
+        product: 'Apple',
+        id: 6,
+      },
+      {
+        product: 'Apple',
+        id: 7,
+      },
+      {
+        product: 'Apple',
+        id: 8,
+      },
+      {
+        product: 'Apple',
+        id: 9,
+      },
+    ],
+  },
+  {
+    id: 1,
+    image: '/images/huawei.png',
+    title: 'Смартфони',
+    productNames: [
+      {
+        product: 'Apple',
+        id: 0,
+      },
+      {
+        product: 'Apple',
+        id: 1,
+      },
+      {
+        product: 'Apple',
+        id: 2,
+      },
+      {
+        product: 'Apple',
+        id: 3,
+      },
+      {
+        product: 'Apple',
+        id: 4,
+      },
+      {
+        product: 'Apple',
+        id: 5,
+      },
+      {
+        product: 'Apple',
+        id: 6,
+      },
+      {
+        product: 'Apple',
+        id: 7,
+      },
+      {
+        product: 'Apple',
+        id: 8,
+      },
+      {
+        product: 'Apple',
+        id: 9,
+      },
+    ],
+  },
+  {
+    id: 2,
+    image: '/images/huawei.png',
+    title: 'Смартфони',
+    productNames: [
+      {
+        product: 'Apple',
+        id: 0,
+      },
+      {
+        product: 'Apple',
+        id: 1,
+      },
+      {
+        product: 'Apple',
+        id: 2,
+      },
+      {
+        product: 'Apple',
+        id: 3,
+      },
+      {
+        product: 'Apple',
+        id: 4,
+      },
+      {
+        product: 'Apple',
+        id: 5,
+      },
+      {
+        product: 'Apple',
+        id: 6,
+      },
+      {
+        product: 'Apple',
+        id: 7,
+      },
+      {
+        product: 'Apple',
+        id: 8,
+      },
+      {
+        product: 'Apple',
+        id: 9,
+      },
+    ],
+  },
+  {
+    id: 3,
+    image: '/images/huawei.png',
+    title: 'Смартфони',
+    productNames: [
+      {
+        product: 'Apple',
+        id: 0,
+      },
+      {
+        product: 'Apple',
+        id: 1,
+      },
+      {
+        product: 'Apple',
+        id: 2,
+      },
+      {
+        product: 'Apple',
+        id: 3,
+      },
+      {
+        product: 'Apple',
+        id: 4,
+      },
+      {
+        product: 'Apple',
+        id: 5,
+      },
+      {
+        product: 'Apple',
+        id: 6,
+      },
+      {
+        product: 'Apple',
+        id: 7,
+      },
+      {
+        product: 'Apple',
+        id: 8,
+      },
+      {
+        product: 'Apple',
+        id: 9,
+      },
+    ],
+  },
+  {
+    id: 4,
+    image: '/images/huawei.png',
+    title: 'Смартфони',
+    productNames: [
+      {
+        product: 'Apple',
+        id: 0,
+      },
+      {
+        product: 'Apple',
+        id: 1,
+      },
+      {
+        product: 'Apple',
+        id: 2,
+      },
+      {
+        product: 'Apple',
+        id: 3,
+      },
+      {
+        product: 'Apple',
+        id: 4,
+      },
+      {
+        product: 'Apple',
+        id: 5,
+      },
+      {
+        product: 'Apple',
+        id: 6,
+      },
+      {
+        product: 'Apple',
+        id: 7,
+      },
+      {
+        product: 'Apple',
+        id: 8,
+      },
+      {
+        product: 'Apple',
+        id: 9,
+      },
+    ],
+  },
+  {
+    id: 5,
+    image: '/images/huawei.png',
+    title: 'Смартфони',
+    productNames: [
+      {
+        product: 'Apple',
+        id: 0,
+      },
+      {
+        product: 'Apple',
+        id: 1,
+      },
+      {
+        product: 'Apple',
+        id: 2,
+      },
+      {
+        product: 'Apple',
+        id: 3,
+      },
+      {
+        product: 'Apple',
+        id: 4,
+      },
+      {
+        product: 'Apple',
+        id: 5,
+      },
+      {
+        product: 'Apple',
+        id: 6,
+      },
+      {
+        product: 'Apple',
+        id: 7,
+      },
+      {
+        product: 'Apple',
+        id: 8,
+      },
+      {
+        product: 'Apple',
+        id: 9,
+      },
+    ],
+  },
+  {
+    id: 6,
+    image: '/images/huawei.png',
+    title: 'Смартфони',
+    productNames: [
+      {
+        product: 'Apple',
+        id: 0,
+      },
+      {
+        product: 'Apple',
+        id: 1,
+      },
+      {
+        product: 'Apple',
+        id: 2,
+      },
+      {
+        product: 'Apple',
+        id: 3,
+      },
+      {
+        product: 'Apple',
+        id: 4,
+      },
+      {
+        product: 'Apple',
+        id: 5,
+      },
+      {
+        product: 'Apple',
+        id: 6,
+      },
+      {
+        product: 'Apple',
+        id: 7,
+      },
+      {
+        product: 'Apple',
+        id: 8,
+      },
+      {
+        product: 'Apple',
+        id: 9,
+      },
+    ],
+  },
+  {
+    id: 7,
+    image: '/images/huawei.png',
+    title: 'Смартфони',
+    productNames: [
+      {
+        product: 'Apple',
+        id: 0,
+      },
+      {
+        product: 'Apple',
+        id: 1,
+      },
+      {
+        product: 'Apple',
+        id: 2,
+      },
+      {
+        product: 'Apple',
+        id: 3,
+      },
+      {
+        product: 'Apple',
+        id: 4,
+      },
+      {
+        product: 'Apple',
+        id: 5,
+      },
+      {
+        product: 'Apple',
+        id: 6,
+      },
+      {
+        product: 'Apple',
+        id: 7,
+      },
+      {
+        product: 'Apple',
+        id: 8,
+      },
+      {
+        product: 'Apple',
+        id: 9,
+      },
+    ],
+  },
+  {
+    id: 8,
+    image: '/images/huawei.png',
+    title: 'Смартфони',
+    productNames: [
+      {
+        product: 'Apple',
+        id: 0,
+      },
+      {
+        product: 'Apple',
+        id: 1,
+      },
+      {
+        product: 'Apple',
+        id: 2,
+      },
+      {
+        product: 'Apple',
+        id: 3,
+      },
+      {
+        product: 'Apple',
+        id: 4,
+      },
+      {
+        product: 'Apple',
+        id: 5,
+      },
+      {
+        product: 'Apple',
+        id: 6,
+      },
+      {
+        product: 'Apple',
+        id: 7,
+      },
+      {
+        product: 'Apple',
+        id: 8,
+      },
+      {
+        product: 'Apple',
+        id: 9,
+      },
+    ],
+  },
+  {
+    id: 9,
+    image: '/images/huawei.png',
+    title: 'Смартфони',
+    productNames: [
+      {
+        product: 'Apple',
+        id: 0,
+      },
+      {
+        product: 'Apple',
+        id: 1,
+      },
+      {
+        product: 'Apple',
+        id: 2,
+      },
+      {
+        product: 'Apple',
+        id: 3,
+      },
+      {
+        product: 'Apple',
+        id: 4,
+      },
+      {
+        product: 'Apple',
+        id: 5,
+      },
+      {
+        product: 'Apple',
+        id: 6,
+      },
+      {
+        product: 'Apple',
+        id: 7,
+      },
+      {
+        product: 'Apple',
+        id: 8,
+      },
+      {
+        product: 'Apple',
+        id: 9,
+      },
+    ],
+  },
+];
 
 
 module.exports = {
-  BlogItems, 
+  BlogItems,
   newProducts,
   promotionsSides,
   salsLeader,
@@ -2357,5 +2830,6 @@ module.exports = {
   generalSlides,
   specialOffers,
   searchHistory,
-  mostPopularProducts
+  mostPopularProducts,
+  categories,
 }
