@@ -4,6 +4,9 @@ const { defaultGet } = require('../helpers');
 
 const searchRouter = express.Router();
 
+searchRouter.get('/', (req, res) => {
+  
+});
 searchRouter.get('/history', defaultGet(searchHistory));
 searchRouter.get('/popular', defaultGet(mostPopularProducts));
 
