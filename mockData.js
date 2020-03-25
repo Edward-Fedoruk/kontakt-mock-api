@@ -2816,6 +2816,29 @@ const categories = [
   },
 ];
 
+const categorySlides = [
+  {
+    id: 0,
+    image: '/images/category_slide.jpg',
+  },
+  {
+    id: 1,
+    image: '/images/category_slide.jpg',
+  },
+  {
+    id: 2,
+    image: '/images/category_slide.jpg',
+  },
+  {
+    id: 3,
+    image: '/images/category_slide.jpg',
+  },
+  {
+    id: 4,
+    image: '/images/category_slide.jpg',
+  },
+];
+
 
 module.exports = {
   BlogItems,
@@ -2832,4 +2855,5 @@ module.exports = {
   searchHistory,
   mostPopularProducts,
   categories,
+  categorySlides,
 }
