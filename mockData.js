@@ -2354,21 +2354,32 @@ const mostPopularProducts = [
     image: 'images/TV.png',
     productName: 'Philips TV',
     price: 1199.99,
-    slug: 'apple-iphone-11'
+    slug: 'apple-iphone-11',
+    description: 'Pro 15'
+  },
+  {
+    id: 1,
+    image: 'images/mac.png',
+    productName: 'MacBook Air 13',
+    price: 1200.99,
+    slug: 'apple-MacBook-11',
+    description: '64GB Black'
   },
   {
     id: 2,
     image: 'images/mac.png',
     productName: 'MacBook Air 13',
     price: 1200.99,
-    slug: 'apple-MacBook-11'
+    slug: 'apple-MacBook-11',
+    description: '64GB Black'
   },
   {
     id: 3,
     image: 'images/marshall.png',
     productName: 'Philips TV',
     price: 1199.99,
-    slug: 'Philips-TV'
+    slug: 'Philips-TV',
+    description: '64GB Black'
   },
 ];
 
