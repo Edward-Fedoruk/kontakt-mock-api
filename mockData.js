@@ -53,6 +53,7 @@ const specialOffers = [
         description: 'SMART',
         price: 1199.99,
         likes: 81,
+        installment: 'Рассрочка 12 ay 259 azn',
         tags: [],
         specs: [
           {
@@ -80,6 +81,7 @@ const specialOffers = [
         price: 2649.99,
         tags: [],
         likes: 981,
+        installment: 'Рассрочка 12 ay 259 azn',
         specs: [
           {
             id: 0,
@@ -131,6 +133,7 @@ const specialOffers = [
         description: 'AI camera',
         price: 2649.99,
         likes: 67,
+        installment: 'Рассрочка 12 ay 259 azn',
         tags: [
           {
             id: 0,
@@ -168,6 +171,7 @@ const specialOffers = [
         description: 'SMART',
         price: 1199.99,
         likes: 864,
+        installment: 'Рассрочка 12 ay 259 azn',
         tags: [
           {
             id: 0,
@@ -226,6 +230,7 @@ const specialOffers = [
         description: 'Gold 2019',
         price: 1200.99,
         likes: 878,
+        installment: 'Рассрочка 12 ay 259 azn',
         tags: [],
         specs: [
           {
@@ -289,6 +294,7 @@ const specialOffers = [
         description: 'SMART',
         price: 1199.99,
         likes: 893,
+        installment: 'Рассрочка 12 ay 259 azn',
         tags: [],
         specs: [
           {
@@ -316,6 +322,7 @@ const specialOffers = [
         price: 2649.99,
         tags: [],
         likes: 6803,
+        installment: 'Рассрочка 12 ay 259 azn',
         specs: [
           {
             id: 0,
@@ -341,6 +348,7 @@ const specialOffers = [
         description: 'Gold 2019',
         price: 1200.99,
         likes: 111,
+        installment: 'Рассрочка 12 ay 259 azn',
         tags: [],
         specs: [
           {
@@ -404,6 +412,7 @@ const specialOffers = [
         description: 'SMART',
         price: 1199.99,
         likes: 190,
+        installment: 'Рассрочка 12 ay 259 azn',
         tags: [
           {
             id: 0,
@@ -488,6 +497,7 @@ const specialOffers = [
         description: 'AI camera',
         price: 2649.99,
         likes: 35,
+        installment: 'Рассрочка 12 ay 259 azn',
         tags: [
           {
             id: 0,
@@ -526,6 +536,7 @@ const newProducts = [
     price: 1199.99,
     likes: 151,
     tags: [],
+    installment: 'Рассрочка 12 ay 259 azn',
     specs: [
       {
         id: 0,
@@ -552,6 +563,7 @@ const newProducts = [
     price: 2649.99,
     likes: 6511,
     tags: [],
+    installment: 'Рассрочка 12 ay 259 azn',
     specs: [
       {
         id: 0,
@@ -603,6 +615,7 @@ const newProducts = [
     description: 'AI camera',
     price: 2649.99,
     likes: 91,
+    installment: 'Рассрочка 12 ay 259 azn',
     tags: [
       {
         id: 0,
@@ -667,6 +680,7 @@ const newProducts = [
     description: 'AI camera',
     price: 2649.99,
     likes: 86,
+    installment: 'Рассрочка 12 ay 259 azn',
     tags: [
       {
         id: 0,
@@ -699,6 +713,7 @@ const newProducts = [
     description: 'AI camera',
     price: 2649.99,
     likes: 91,
+    installment: 'Рассрочка 12 ay 259 azn',
     tags: [
       {
         id: 0,
@@ -749,6 +764,7 @@ const salsLeader = [
     description: 'SMART',
     price: 1199.99,
     likes: 111,
+    installment: 'Рассрочка 12 ay 259 azn',
     tags: [
       {
         id: 0,
@@ -808,6 +824,7 @@ const salsLeader = [
     price: 1200.99,
     tags: [],
     likes: 98,
+    installment: 'Рассрочка 12 ay 259 azn',
     specs: [
       {
         id: 0,
@@ -833,6 +850,7 @@ const salsLeader = [
     description: 'AI camera',
     price: 2649.99,
     likes: 76,
+    installment: 'Рассрочка 12 ay 259 azn',
     tags: [
       {
         id: 0,
@@ -866,6 +884,7 @@ const salsLeader = [
     price: 2649.99,
     tags: [],
     likes: 23,
+    installment: 'Рассрочка 12 ay 259 azn',
     specs: [
       {
         id: 0,
@@ -917,6 +936,7 @@ const salsLeader = [
     description: 'AI camera',
     price: 2649.99,
     likes: 1113,
+    installment: 'Рассрочка 12 ay 259 azn',
     tags: [
       {
         id: 0,
@@ -976,6 +996,7 @@ const salsLeader = [
     price: 1200.99,
     tags: [],
     likes: 511,
+    installment: 'Рассрочка 12 ay 259 azn',
     specs: [
       {
         id: 0,
@@ -1001,6 +1022,7 @@ const salsLeader = [
     description: 'AI camera',
     price: 2649.99,
     likes: 1161,
+    installment: 'Рассрочка 12 ay 259 azn',
     tags: [
       {
         id: 0,
@@ -1047,6 +1069,7 @@ const specialProducts = [
     description: 'SMART',
     price: 1199.99,
     likes: 111,
+    installment: 'Рассрочка 12 ay 259 azn',
     tags: [
       {
         id: 0,
@@ -1079,6 +1102,7 @@ const specialProducts = [
     description: 'With wireless charging case',
     price: 2649.99,
     likes: 23,
+    installment: 'Рассрочка 12 ay 259 azn',
     tags: [],
     specs: [
       {
@@ -1131,6 +1155,7 @@ const specialProducts = [
     description: 'AI camera',
     price: 2649.99,
     likes: 67,
+    installment: 'Рассрочка 12 ay 259 azn',
     tags: [
       {
         id: 0,
@@ -1164,6 +1189,7 @@ const specialProducts = [
     price: 2649.99,
     tags: [],
     likes: 23,
+    installment: 'Рассрочка 12 ay 259 azn',
     specs: [
       {
         id: 0,
@@ -1215,6 +1241,7 @@ const specialProducts = [
     description: 'AI camera',
     price: 2649.99,
     likes: 55,
+    installment: 'Рассрочка 12 ay 259 azn',
     tags: [
       {
         id: 0,
@@ -1274,6 +1301,7 @@ const specialProducts = [
     price: 1200.99,
     tags: [],
     likes: 67,
+    installment: 'Рассрочка 12 ay 259 azn',
     specs: [
       {
         id: 0,
@@ -1299,6 +1327,7 @@ const specialProducts = [
     description: 'AI camera',
     price: 2649.99,
     likes: 34,
+    installment: 'Рассрочка 12 ay 259 azn',
     tags: [
       {
         id: 0,
