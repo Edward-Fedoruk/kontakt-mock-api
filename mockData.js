@@ -108,6 +108,7 @@ const specialOffers = [
         price: 1200.99,
         tags: [],
         likes: 99,
+        installment: 'Рассрочка 12 ay 259 azn',
         specs: [
           {
             id: 0,
@@ -204,6 +205,7 @@ const specialOffers = [
         description: 'With wireless charging case',
         price: 2649.99,
         likes: 1010,
+        installment: 'Рассрочка 12 ay 259 azn',
         tags: [],
         specs: [
           {
@@ -257,6 +259,7 @@ const specialOffers = [
         description: 'AI camera',
         price: 2649.99,
         likes: 894,
+        installment: 'Рассрочка 12 ay 259 azn',
         tags: [
           {
             id: 0,
@@ -375,6 +378,7 @@ const specialOffers = [
         description: 'AI camera',
         price: 2649.99,
         likes: 908,
+        installment: 'Рассрочка 12 ay 259 azn',
         tags: [
           {
             id: 0,
@@ -446,6 +450,7 @@ const specialOffers = [
         price: 2649.99,
         tags: [],
         likes: 45,
+        installment: 'Рассрочка 12 ay 259 azn',
         specs: [
           {
             id: 0,
@@ -471,6 +476,7 @@ const specialOffers = [
         description: 'Gold 2019',
         price: 1200.99,
         likes: 464,
+        installment: 'Рассрочка 12 ay 259 azn',
         tags: [],
         specs: [
           {
@@ -589,6 +595,7 @@ const newProducts = [
     description: 'Gold 2019',
     price: 1200.99,
     likes: 51,
+    installment: 'Рассрочка 12 ay 259 azn',
     tags: [],
     specs: [
       {
@@ -648,6 +655,7 @@ const newProducts = [
     description: 'AI camera',
     price: 2649.99,
     likes: 341,
+    installment: 'Рассрочка 12 ay 259 azn',
     tags: [
       {
         id: 0,
@@ -797,6 +805,7 @@ const salsLeader = [
     description: 'With wireless charging case',
     price: 2649.99,
     likes: 88,
+    installment: 'Рассрочка 12 ay 259 azn',
     tags: [],
     specs: [
       {
@@ -911,6 +920,7 @@ const salsLeader = [
     price: 1200.99,
     tags: [],
     likes: 101,
+    installment: 'Рассрочка 12 ay 259 azn',
     specs: [
       {
         id: 0,
@@ -969,6 +979,7 @@ const salsLeader = [
     description: 'With wireless charging case',
     price: 2649.99,
     likes: 911,
+    installment: 'Рассрочка 12 ay 259 azn',
     tags: [],
     specs: [
       {
@@ -1129,6 +1140,7 @@ const specialProducts = [
     description: 'Gold 2019',
     price: 1200.99,
     likes: 101,
+    installment: 'Рассрочка 12 ay 259 azn',
     tags: [],
     specs: [
       {
@@ -1215,6 +1227,7 @@ const specialProducts = [
     description: 'Gold 2019',
     price: 1200.99,
     likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
     tags: [],
     specs: [
       {
@@ -1274,6 +1287,7 @@ const specialProducts = [
     description: 'With wireless charging case',
     price: 2649.99,
     likes: 22,
+    installment: 'Рассрочка 12 ay 259 azn',
     tags: [],
     specs: [
       {
