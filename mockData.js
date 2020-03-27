@@ -2925,8 +2925,8 @@ module.exports = {
   categories,
   categorySlides,
   products: [
-    ...newProducts, 
-    ...specialProducts, 
+    ...newProducts,
+    ...specialProducts,
     ...mostPopularProducts
-  ]
+  ].map((x) => ({...x, category: 'technology'}))
 };
