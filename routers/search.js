@@ -17,15 +17,9 @@ searchRouter.get('/', (req, res) => {
         ? [...acc, { name, id }] : acc
     }, []);
 
-  const matchedProducts = filtered
-    .map(({ productName, id }) => ({ productName, id }))
-    .reduce((acc, { productName, id }) => {
-      const names = acc.map(({ productName }) => productName);
-      return [...new Set([...names, productName])].length === [...names, productName].length
-        ? [...acc, { productName, id }] : acc
-    }, []);
+  const matchedProducts = filtered.map(({ productName, id }) => ({ productName, id }));
   const popularProducts = filtered.slice(-4)
-  console.log(matchedProducts)
+  console.log(categories)
   res.status(200).send({
     popularProducts,
     categories,
