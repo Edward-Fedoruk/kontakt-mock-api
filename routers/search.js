@@ -10,7 +10,7 @@ searchRouter.get('/', (req, res) => {
     .filter(({ productName }) => productName.toLowerCase().includes(query.toLowerCase()))
     .slice(0, 20);
   const categories = [...new Set(filtered.map(({ category }) => category))]; 
-  const matchedProducts = filtered.map(({ productName }) => productName);
+  const matchedProducts = filtered.map(({ productName, id }) => ({ productName, id }));
   const popularProducts = filtered.slice(-4)
 
   res.status(200).send({
