@@ -1,4 +1,7 @@
 const uuidv4 = require('uuid').v4;
+const between = (min, max) => Math.floor(
+  Math.random() * (max - min + 1) + min
+)
 
 const converToUuid = (xs) => xs.map((x) => ({ ...x, id: uuidv4() })) 
 
@@ -2928,5 +2931,11 @@ module.exports = {
     ...newProducts,
     ...specialProducts,
     ...mostPopularProducts
-  ].map((x) => ({...x, category: 'technology'}))
+  ].map((x) => ({
+    ...x, 
+    category: { 
+      id: uuidv4(),
+      name: ['phone', 'tv', 'service'][between(0, 2)], 
+    } 
+  }))
 };
