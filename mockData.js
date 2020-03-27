@@ -1,3 +1,10 @@
+const uuidv4 = require('uuid').v4;
+const between = (min, max) => Math.floor(
+  Math.random() * (max - min + 1) + min
+)
+
+const converToUuid = (xs) => xs.map((x) => ({ ...x, id: uuidv4() })) 
+
 const BlogItems = [
   {
     id: 0,
@@ -533,7 +540,7 @@ const specialOffers = [
   },
 ];
 
-const newProducts = [
+const newProducts = converToUuid([
   {
     id: 0,
     image: 'images/TV.png',
@@ -747,7 +754,7 @@ const newProducts = [
       },
     ],
   },
-];
+]);
 
 const newsSlides = [
   {
@@ -1072,7 +1079,7 @@ const smallBanners = [
   },
 ];
 
-const specialProducts = [
+const specialProducts = converToUuid([
   {
     id: 0,
     image: 'images/marshall.png',
@@ -1367,7 +1374,7 @@ const specialProducts = [
       },
     ],
   },
-];
+]);
 
 const SubMenuCategories = [
   {
@@ -2355,21 +2362,38 @@ const wideBanners = [
   },
 ];
 
-const searchHistory = [
-  'iphone',
-  'something cool',
-  'pink airpods',
-  'corona virus antidot',
-];
-
-const mostPopularProducts = [
+const mostPopularProducts = converToUuid([
   {
     id: 0,
     image: 'images/TV.png',
     productName: 'Philips TV',
     price: 1199.99,
     slug: 'apple-iphone-11',
-    description: 'Pro 15'
+    description: 'Pro 15',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
   },
   {
     id: 1,
@@ -2377,7 +2401,31 @@ const mostPopularProducts = [
     productName: 'MacBook Air 13',
     price: 1200.99,
     slug: 'apple-MacBook-11',
-    description: '64GB Black'
+    description: '64GB Black',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
   },
   {
     id: 2,
@@ -2385,7 +2433,31 @@ const mostPopularProducts = [
     productName: 'MacBook Air 13',
     price: 1200.99,
     slug: 'apple-MacBook-11',
-    description: '64GB Black'
+    description: '64GB Black',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
   },
   {
     id: 3,
@@ -2393,9 +2465,33 @@ const mostPopularProducts = [
     productName: 'Philips TV',
     price: 1199.99,
     slug: 'Philips-TV',
-    description: '64GB Black'
+    description: '64GB Black',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
   },
-];
+]);
 
 const categories = [
   {
@@ -2831,19 +2927,29 @@ const categorySlides = [
 
 
 module.exports = {
-  BlogItems,
   newProducts,
+  specialProducts,
+  mostPopularProducts,
+  BlogItems,
   promotionsSides,
   salsLeader,
   smallBanners,
   SubMenuCategories,
   wideBanners,
   newsSlides,
-  specialProducts,
   generalSlides,
   specialOffers,
-  searchHistory,
-  mostPopularProducts,
   categories,
   categorySlides,
-}
+  products: [
+    ...newProducts,
+    ...specialProducts,
+    ...mostPopularProducts
+  ].map((x) => ({
+    ...x, 
+    category: { 
+      id: uuidv4(),
+      name: ['phone', 'tv', 'service'][between(0, 2)], 
+    } 
+  }))
+};
