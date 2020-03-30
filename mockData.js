@@ -167,6 +167,72 @@ const specialOffers = [
           },
         ],
       },
+      {
+        id: 4,
+        image: 'images/huawei.png',
+        productName: 'Huawei',
+        description: 'AI camera',
+        price: 2649.99,
+        likes: 67,
+        installment: 'Рассрочка 12 ay 259 azn',
+        tags: [
+          {
+            id: 0,
+            color: false,
+            text: '-25%',
+          },
+        ],
+        specs: [
+          {
+            id: 0,
+            specName: 'Размер экрана:',
+            spec: '6,3',
+          },
+          {
+            id: 1,
+            specName: 'RAM-ROM:',
+            spec: '4 ГБ / 64 ГБ',
+          },
+          {
+            id: 2,
+            specName: 'Емкость аккумулятора:',
+            spec: '6000 мА*ч',
+          },
+        ],
+      },
+      {
+        id: 5,
+        image: 'images/huawei.png',
+        productName: 'Huawei',
+        description: 'AI camera',
+        price: 2649.99,
+        likes: 67,
+        installment: 'Рассрочка 12 ay 259 azn',
+        tags: [
+          {
+            id: 0,
+            color: false,
+            text: '-25%',
+          },
+        ],
+        specs: [
+          {
+            id: 0,
+            specName: 'Размер экрана:',
+            spec: '6,3',
+          },
+          {
+            id: 1,
+            specName: 'RAM-ROM:',
+            spec: '4 ГБ / 64 ГБ',
+          },
+          {
+            id: 2,
+            specName: 'Емкость аккумулятора:',
+            spec: '6000 мА*ч',
+          },
+        ],
+      },
     ],
   },
   {
