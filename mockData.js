@@ -3011,11 +3011,11 @@ module.exports = {
     ...newProducts,
     ...specialProducts,
     ...mostPopularProducts
-  ].map((x) => ({
+  ].map((x, i) => ({
     ...x, 
     category: { 
       id: uuidv4(),
-      name: ['phone', 'tv', 'service'][between(0, 2)], 
+      name: ['phone', 'tv'][i % 2 === 0 ? 0 : 1], 
     } 
   }))
 };
