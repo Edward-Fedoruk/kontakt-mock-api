@@ -833,7 +833,7 @@ const promotionsSides = [
   {
     id: 0,
     image: '/images/special-product.jpg',
-    date: '30 March 2020 14:48 UTC',
+    date: '30 June 2020 14:48 UTC',
   },
 ];
 
