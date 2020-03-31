@@ -7,10 +7,12 @@ const authRouter = express.Router();
 const private_key = 'secret';
 const accountSecrets = {
   email: 'testemail@gmail.com',
-  password: '123456qwerty', 
+  password: '123456qwerty',
+  name: 'Test',
+  surname: 'Testovich',
 };
 
-const users = [];
+const users = [accountSecrets];
 
 authRouter.get('/sign-in/', (req, res) => {
   const { email, password } = req.query;
@@ -27,13 +29,13 @@ authRouter.get('/sign-in/', (req, res) => {
 }); 
 
 authRouter.get('/sign-up/', (req, res) => {
-  const {email, password} = req.query;
+  const { email, password, name, surname } = req.query;
 
   if (users.find((u) => u.email === email)) {
     res.status(400).send({ error: 'user already exist' });
   } else {
-    const token = jwt.sign({ email, password }, private_key, { expiresIn: '1d' });
-    users.push({ email, password });
+    const token = jwt.sign({ email, password, surname, name }, private_key, { expiresIn: '1d' });
+    users.push({ email, password, name, surname });
     res.status(200).send({ token });
   }
 })
