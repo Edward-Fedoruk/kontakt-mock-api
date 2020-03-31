@@ -12,7 +12,7 @@ const accountSecrets = {
 
 const users = [];
 
-authRouter.get('/sign-in', (req, res) => {
+authRouter.get('/sign-in/', (req, res) => {
   const { email, password } = req.query;
   
   const token = jwt.sign({ email, password }, private_key, { expiresIn: '1d' });
@@ -26,7 +26,7 @@ authRouter.get('/sign-in', (req, res) => {
     : res.status(400).send({ error: 'invalid email or password' });
 }); 
 
-authRouter.get('/sign-up', (req, res) => {
+authRouter.get('/sign-up/', (req, res) => {
   const {email, password} = req.query;
 
   if (users.find((u) => u.email === email)) {
