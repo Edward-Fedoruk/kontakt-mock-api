@@ -33,7 +33,7 @@ authRouter.get('/sign-in/', (req, res) => {
   }
 }); 
 
-authRouter.get('/sign-up/', (req, res) => {
+authRouter.post('/sign-up/', (req, res) => {
   const { email, password, name, surname } = req.query;
 
   if (users.find((u) => u.email === email)) {
