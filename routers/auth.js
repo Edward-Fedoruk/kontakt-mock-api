@@ -5,27 +5,33 @@ const jwt =  require('jsonwebtoken');
 const authRouter = express.Router();
 
 const private_key = 'secret';
-const accountSecrets = {
-  email: 'testemail@gmail.com',
-  password: '123456qwerty',
-  name: 'Test',
-  surname: 'Testovich',
-};
 
-const users = [accountSecrets];
+const users = [
+  {
+    email: 'testemail@gmail.com',
+    password: '123456qwerty',
+    name: 'Test',
+    surname: 'Testovich',
+  }
+];
 
 authRouter.get('/sign-in/', (req, res) => {
   const { email, password } = req.query;
   
-  const token = jwt.sign({ email, password }, private_key, { expiresIn: '1d' });
+  const accountSecrets = users.find((account) => account.email === email);
+  
+  if (accountSecrets !== undefined) {
+    const isCredentialsCorrect = 
+      email.trim() === accountSecrets.email && 
+      password.trim() === accountSecrets.password;
+    const token = jwt.sign(accountSecrets, private_key, { expiresIn: '1d' });
 
-  const isCredentialsCorrect = 
-    email.trim() === accountSecrets.email && 
-    password.trim() === accountSecrets.password;
-
-  isCredentialsCorrect
-    ? res.status(200).send({ token })
-    : res.status(400).send({ error: 'invalid email or password' });
+    isCredentialsCorrect
+      ? res.status(200).send({ token, ...accountSecrets })
+      : res.status(400).send({ error: 'invalid email or password' });
+  } else {
+    res.status(400).send({ error: 'user doesn\'t exist' });
+  }
 }); 
 
 authRouter.get('/sign-up/', (req, res) => {
