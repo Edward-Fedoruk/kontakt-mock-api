@@ -20,17 +20,16 @@ authRouter.get('/sign-in/', (req, res) => {
   
   const accountSecrets = users.find((account) => account.email === email);
   
-  if (accountSecrets !== undefined) {
-    const isCredentialsCorrect = 
-      email.trim() === accountSecrets.email && 
-      password.trim() === accountSecrets.password;
+  if (accountSecrets === undefined) {
+    res.status(400).send({ error: 'this email isn\'t registered yet, pls sign up' });
+  } else if(
+    email.trim() === accountSecrets.email && 
+    password.trim() === accountSecrets.password
+  ) {
     const token = jwt.sign(accountSecrets, private_key, { expiresIn: '1d' });
-
-    isCredentialsCorrect
-      ? res.status(200).send({ token, ...accountSecrets })
-      : res.status(400).send({ error: 'invalid email or password' });
+    res.status(200).send({ token, ...accountSecrets })
   } else {
-    res.status(400).send({ error: 'user doesn\'t exist' });
+    res.status(400).send({ error: 'invalid email or password' });
   }
 }); 
 
