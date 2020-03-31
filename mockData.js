@@ -146,7 +146,7 @@ const specialOffers = [
           {
             id: 0,
             color: false,
-            text: '-25%',
+            text: '-15 AZN',
           },
         ],
         specs: [
@@ -212,7 +212,7 @@ const specialOffers = [
           {
             id: 0,
             color: false,
-            text: '-25%',
+            text: '-15 AZN',
           },
         ],
         specs: [
@@ -733,7 +733,7 @@ const newProducts = converToUuid([
       {
         id: 0,
         color: false,
-        text: '-25%',
+        text: '-15 AZN',
       },
     ],
     specs: [
@@ -799,7 +799,7 @@ const newProducts = converToUuid([
       {
         id: 0,
         color: false,
-        text: '-25%',
+        text: '-15 AZN',
       },
     ],
     specs: [
