@@ -2563,7 +2563,7 @@ const categories = [
   {
     id: 0,
     image: '/images/huawei.png',
-    title: 'Смартфони',
+    title: 'Смартфоны',
     href: '/category',
     productNames: [
       {
@@ -2679,7 +2679,7 @@ const categories = [
   {
     id: 2,
     image: '/images/bank.png',
-    title: 'Аксесуары',
+    title: 'Аксессуары',
     href: '/category',
     productNames: [
       {
