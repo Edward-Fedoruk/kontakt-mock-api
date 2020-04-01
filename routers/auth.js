@@ -15,8 +15,8 @@ const users = [
   }
 ];
 
-authRouter.get('/sign-in/', (req, res) => {
-  const { email, password } = req.query;
+authRouter.post('/sign-in/', (req, res) => {
+  const { email, password } = req.body;
   
   const accountSecrets = users.find((account) => account.email === email);
   
@@ -34,7 +34,7 @@ authRouter.get('/sign-in/', (req, res) => {
 }); 
 
 authRouter.post('/sign-up/', (req, res) => {
-  const { email, password, name, surname } = req.query;
+  const { email, password, name, surname } = req.body;
 
   if (users.find((u) => u.email === email)) {
     res.status(400).send({ error: 'user already exist' });
