@@ -35,7 +35,7 @@ authRouter.post('/sign-in/', (req, res) => {
 
 authRouter.post('/sign-up/', (req, res) => {
   console.log(req.query, req.body)
-  const { email, password, name, surname } = req.query;
+  const { email, password, name, surname } = req.body;
   if (users.find((u) => u.email === email)) {
     res.status(400).send({ error: 'user already exist' });
   } else {
