@@ -837,7 +837,7 @@ const promotionsSides = [
   },
 ];
 
-const salsLeader = [
+const salesLeaders = [
   {
     id: 0,
     image: '/images/marshall.png',
@@ -2998,7 +2998,7 @@ module.exports = {
   mostPopularProducts,
   BlogItems,
   promotionsSides,
-  salsLeader,
+  salesLeaders,
   smallBanners,
   SubMenuCategories,
   wideBanners,
