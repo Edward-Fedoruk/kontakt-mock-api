@@ -55,7 +55,7 @@ const specialOffers = [
     products: [
       {
         id: 0,
-        image: 'images/TV.png',
+        image: '/images/TV.png',
         productName: 'Philips TV',
         description: 'SMART',
         price: 1199.99,
@@ -82,7 +82,7 @@ const specialOffers = [
       },
       {
         id: 1,
-        image: 'images/airPods.png',
+        image: '/images/airPods.png',
         productName: 'airPods 2',
         description: 'With wireless charging case',
         price: 2649.99,
@@ -109,7 +109,7 @@ const specialOffers = [
       },
       {
         id: 2,
-        image: 'images/mac.png',
+        image: '/images/mac.png',
         productName: 'MacBook Air 13',
         description: 'Gold 2019',
         price: 1200.99,
@@ -136,7 +136,7 @@ const specialOffers = [
       },
       {
         id: 3,
-        image: 'images/huawei.png',
+        image: '/images/huawei.png',
         productName: 'Huawei',
         description: 'AI camera',
         price: 2649.99,
@@ -169,7 +169,7 @@ const specialOffers = [
       },
       {
         id: 4,
-        image: 'images/huawei.png',
+        image: '/images/huawei.png',
         productName: 'Huawei',
         description: 'AI camera',
         price: 2649.99,
@@ -202,7 +202,7 @@ const specialOffers = [
       },
       {
         id: 5,
-        image: 'images/huawei.png',
+        image: '/images/huawei.png',
         productName: 'Huawei',
         description: 'AI camera',
         price: 2649.99,
@@ -240,7 +240,7 @@ const specialOffers = [
     products: [
       {
         id: 0,
-        image: 'images/marshall.png',
+        image: '/images/marshall.png',
         productName: 'Philips TV',
         description: 'SMART',
         price: 1199.99,
@@ -273,7 +273,7 @@ const specialOffers = [
       },
       {
         id: 1,
-        image: 'images/mac.png',
+        image: '/images/mac.png',
         productName: 'airPods 2',
         description: 'With wireless charging case',
         price: 2649.99,
@@ -300,7 +300,7 @@ const specialOffers = [
       },
       {
         id: 2,
-        image: 'images/display.png',
+        image: '/images/display.png',
         productName: 'MacBook Air 13',
         description: 'Gold 2019',
         price: 1200.99,
@@ -327,7 +327,7 @@ const specialOffers = [
       },
       {
         id: 3,
-        image: 'images/gopro.png',
+        image: '/images/gopro.png',
         productName: 'Huawei',
         description: 'AI camera',
         price: 2649.99,
@@ -365,7 +365,7 @@ const specialOffers = [
     products: [
       {
         id: 0,
-        image: 'images/TV.png',
+        image: '/images/TV.png',
         productName: 'Philips TV',
         description: 'SMART',
         price: 1199.99,
@@ -392,7 +392,7 @@ const specialOffers = [
       },
       {
         id: 1,
-        image: 'images/airPods.png',
+        image: '/images/airPods.png',
         productName: 'airPods 2',
         description: 'With wireless charging case',
         price: 2649.99,
@@ -419,7 +419,7 @@ const specialOffers = [
       },
       {
         id: 2,
-        image: 'images/mac.png',
+        image: '/images/mac.png',
         productName: 'MacBook Air 13',
         description: 'Gold 2019',
         price: 1200.99,
@@ -446,7 +446,7 @@ const specialOffers = [
       },
       {
         id: 3,
-        image: 'images/huawei.png',
+        image: '/images/huawei.png',
         productName: 'Huawei',
         description: 'AI camera',
         price: 2649.99,
@@ -484,7 +484,7 @@ const specialOffers = [
     products: [
       {
         id: 0,
-        image: 'images/marshall.png',
+        image: '/images/marshall.png',
         productName: 'Philips TV',
         description: 'SMART',
         price: 1199.99,
@@ -517,7 +517,7 @@ const specialOffers = [
       },
       {
         id: 1,
-        image: 'images/mac.png',
+        image: '/images/mac.png',
         productName: 'airPods 2',
         description: 'With wireless charging case',
         price: 2649.99,
@@ -544,7 +544,7 @@ const specialOffers = [
       },
       {
         id: 2,
-        image: 'images/display.png',
+        image: '/images/display.png',
         productName: 'MacBook Air 13',
         description: 'Gold 2019',
         price: 1200.99,
@@ -571,7 +571,7 @@ const specialOffers = [
       },
       {
         id: 3,
-        image: 'images/gopro.png',
+        image: '/images/gopro.png',
         productName: 'Huawei',
         description: 'AI camera',
         price: 2649.99,
@@ -609,7 +609,7 @@ const specialOffers = [
 const newProducts = converToUuid([
   {
     id: 0,
-    image: 'images/TV.png',
+    image: '/images/TV.png',
     productName: 'Philips TV',
     description: 'SMART',
     price: 1199.99,
@@ -636,7 +636,7 @@ const newProducts = converToUuid([
   },
   {
     id: 1,
-    image: 'images/airPods.png',
+    image: '/images/airPods.png',
     productName: 'airPods 2',
     description: 'With wireless charging case',
     price: 2649.99,
@@ -663,7 +663,7 @@ const newProducts = converToUuid([
   },
   {
     id: 2,
-    image: 'images/mac.png',
+    image: '/images/mac.png',
     productName: 'MacBook Air 13',
     description: 'Gold 2019',
     price: 1200.99,
@@ -690,7 +690,7 @@ const newProducts = converToUuid([
   },
   {
     id: 3,
-    image: 'images/huawei.png',
+    image: '/images/huawei.png',
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
@@ -723,7 +723,7 @@ const newProducts = converToUuid([
   },
   {
     id: 4,
-    image: 'images/huawei.png',
+    image: '/images/huawei.png',
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
@@ -756,7 +756,7 @@ const newProducts = converToUuid([
   },
   {
     id: 5,
-    image: 'images/huawei.png',
+    image: '/images/huawei.png',
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
@@ -789,7 +789,7 @@ const newProducts = converToUuid([
   },
   {
     id: 6,
-    image: 'images/huawei.png',
+    image: '/images/huawei.png',
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
@@ -840,7 +840,7 @@ const promotionsSides = [
 const salsLeader = [
   {
     id: 0,
-    image: 'images/marshall.png',
+    image: '/images/marshall.png',
     productName: 'Philips TV',
     description: 'SMART',
     price: 1199.99,
@@ -873,7 +873,7 @@ const salsLeader = [
   },
   {
     id: 1,
-    image: 'images/mac.png',
+    image: '/images/mac.png',
     productName: 'airPods 2',
     description: 'With wireless charging case',
     price: 2649.99,
@@ -900,7 +900,7 @@ const salsLeader = [
   },
   {
     id: 2,
-    image: 'images/display.png',
+    image: '/images/display.png',
     productName: 'MacBook Air 13',
     description: 'Gold 2019',
     price: 1200.99,
@@ -927,7 +927,7 @@ const salsLeader = [
   },
   {
     id: 3,
-    image: 'images/gopro.png',
+    image: '/images/gopro.png',
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
@@ -960,7 +960,7 @@ const salsLeader = [
   },
   {
     id: 4,
-    image: 'images/mac.png',
+    image: '/images/mac.png',
     productName: 'airPods 2',
     description: 'With wireless charging case',
     price: 2649.99,
@@ -987,7 +987,7 @@ const salsLeader = [
   },
   {
     id: 5,
-    image: 'images/display.png',
+    image: '/images/display.png',
     productName: 'MacBook Air 13',
     description: 'Gold 2019',
     price: 1200.99,
@@ -1014,7 +1014,7 @@ const salsLeader = [
   },
   {
     id: 6,
-    image: 'images/gopro.png',
+    image: '/images/gopro.png',
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
@@ -1047,7 +1047,7 @@ const salsLeader = [
   },
   {
     id: 7,
-    image: 'images/mac.png',
+    image: '/images/mac.png',
     productName: 'airPods 2',
     description: 'With wireless charging case',
     price: 2649.99,
@@ -1074,7 +1074,7 @@ const salsLeader = [
   },
   {
     id: 8,
-    image: 'images/display.png',
+    image: '/images/display.png',
     productName: 'MacBook Air 13',
     description: 'Gold 2019',
     price: 1200.99,
@@ -1101,7 +1101,7 @@ const salsLeader = [
   },
   {
     id: 9,
-    image: 'images/gopro.png',
+    image: '/images/gopro.png',
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
@@ -1148,7 +1148,7 @@ const smallBanners = [
 const specialProducts = converToUuid([
   {
     id: 0,
-    image: 'images/marshall.png',
+    image: '/images/marshall.png',
     productName: 'Philips TV',
     description: 'SMART',
     price: 1199.99,
@@ -1181,7 +1181,7 @@ const specialProducts = converToUuid([
   },
   {
     id: 1,
-    image: 'images/mac.png',
+    image: '/images/mac.png',
     productName: 'airPods 2',
     description: 'With wireless charging case',
     price: 2649.99,
@@ -1208,7 +1208,7 @@ const specialProducts = converToUuid([
   },
   {
     id: 2,
-    image: 'images/display.png',
+    image: '/images/display.png',
     productName: 'MacBook Air 13',
     description: 'Gold 2019',
     price: 1200.99,
@@ -1235,7 +1235,7 @@ const specialProducts = converToUuid([
   },
   {
     id: 3,
-    image: 'images/gopro.png',
+    image: '/images/gopro.png',
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
@@ -1268,7 +1268,7 @@ const specialProducts = converToUuid([
   },
   {
     id: 4,
-    image: 'images/mac.png',
+    image: '/images/mac.png',
     productName: 'airPods 2',
     description: 'With wireless charging case',
     price: 2649.99,
@@ -1295,7 +1295,7 @@ const specialProducts = converToUuid([
   },
   {
     id: 5,
-    image: 'images/display.png',
+    image: '/images/display.png',
     productName: 'MacBook Air 13',
     description: 'Gold 2019',
     price: 1200.99,
@@ -1322,7 +1322,7 @@ const specialProducts = converToUuid([
   },
   {
     id: 6,
-    image: 'images/gopro.png',
+    image: '/images/gopro.png',
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
@@ -1355,7 +1355,7 @@ const specialProducts = converToUuid([
   },
   {
     id: 7,
-    image: 'images/mac.png',
+    image: '/images/mac.png',
     productName: 'airPods 2',
     description: 'With wireless charging case',
     price: 2649.99,
@@ -1382,7 +1382,7 @@ const specialProducts = converToUuid([
   },
   {
     id: 8,
-    image: 'images/display.png',
+    image: '/images/display.png',
     productName: 'MacBook Air 13',
     description: 'Gold 2019',
     price: 1200.99,
@@ -1409,7 +1409,7 @@ const specialProducts = converToUuid([
   },
   {
     id: 9,
-    image: 'images/gopro.png',
+    image: '/images/gopro.png',
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
@@ -2431,7 +2431,7 @@ const wideBanners = [
 const mostPopularProducts = converToUuid([
   {
     id: 0,
-    image: 'images/TV.png',
+    image: '/images/TV.png',
     productName: 'Philips TV',
     price: 1199.99,
     slug: 'apple-iphone-11',
@@ -2463,7 +2463,7 @@ const mostPopularProducts = converToUuid([
   },
   {
     id: 1,
-    image: 'images/mac.png',
+    image: '/images/mac.png',
     productName: 'MacBook Air 13',
     price: 1200.99,
     slug: 'apple-MacBook-11',
@@ -2495,7 +2495,7 @@ const mostPopularProducts = converToUuid([
   },
   {
     id: 2,
-    image: 'images/mac.png',
+    image: '/images/mac.png',
     productName: 'MacBook Air 13',
     price: 1200.99,
     slug: 'apple-MacBook-11',
@@ -2527,7 +2527,7 @@ const mostPopularProducts = converToUuid([
   },
   {
     id: 3,
-    image: 'images/marshall.png',
+    image: '/images/marshall.png',
     productName: 'Philips TV',
     price: 1199.99,
     slug: 'Philips-TV',
