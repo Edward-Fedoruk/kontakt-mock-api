@@ -3,7 +3,7 @@ const between = (min, max) => Math.floor(
   Math.random() * (max - min + 1) + min
 )
 
-const converToUuid = (xs) => xs.map((x) => ({ ...x, id: uuidv4() })) 
+const convertToUuid = (xs) => xs.map((x) => ({ ...x, id: uuidv4() }))
 
 const BlogItems = [
   {
@@ -606,7 +606,7 @@ const specialOffers = [
   },
 ];
 
-const newProducts = converToUuid([
+const newProducts = convertToUuid([
   {
     id: 0,
     image: '/images/TV.png',
@@ -1145,7 +1145,7 @@ const smallBanners = [
   },
 ];
 
-const specialProducts = converToUuid([
+const specialProducts = convertToUuid([
   {
     id: 0,
     image: '/images/marshall.png',
@@ -2428,7 +2428,7 @@ const wideBanners = [
   },
 ];
 
-const mostPopularProducts = converToUuid([
+const mostPopularProducts = convertToUuid([
   {
     id: 0,
     image: '/images/TV.png',
@@ -3012,10 +3012,10 @@ module.exports = {
     ...specialProducts,
     ...mostPopularProducts
   ].map((x, i) => ({
-    ...x, 
-    category: { 
+    ...x,
+    category: {
       id: uuidv4(),
-      name: ['phone', 'tv'][i % 2 === 0 ? 0 : 1], 
-    } 
+      name: ['phone', 'tv'][i % 2 === 0 ? 0 : 1],
+    }
   }))
 };
