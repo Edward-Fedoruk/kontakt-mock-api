@@ -327,7 +327,7 @@ const specialOffers = [
       },
       {
         id: 3,
-        image: '/images/gopro.png',
+        image: '/images/goPro.png',
         productName: 'Huawei',
         description: 'AI camera',
         price: 2649.99,
@@ -571,7 +571,7 @@ const specialOffers = [
       },
       {
         id: 3,
-        image: '/images/gopro.png',
+        image: '/images/goPro.png',
         productName: 'Huawei',
         description: 'AI camera',
         price: 2649.99,
@@ -927,7 +927,7 @@ const salesLeaders = [
   },
   {
     id: 3,
-    image: '/images/gopro.png',
+    image: '/images/goPro.png',
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
@@ -1014,7 +1014,7 @@ const salesLeaders = [
   },
   {
     id: 6,
-    image: '/images/gopro.png',
+    image: '/images/goPro.png',
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
@@ -1101,7 +1101,7 @@ const salesLeaders = [
   },
   {
     id: 9,
-    image: '/images/gopro.png',
+    image: '/images/goPro.png',
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
@@ -1235,7 +1235,7 @@ const specialProducts = convertToUuid([
   },
   {
     id: 3,
-    image: '/images/gopro.png',
+    image: '/images/goPro.png',
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
@@ -1322,7 +1322,7 @@ const specialProducts = convertToUuid([
   },
   {
     id: 6,
-    image: '/images/gopro.png',
+    image: '/images/goPro.png',
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
@@ -1409,7 +1409,7 @@ const specialProducts = convertToUuid([
   },
   {
     id: 9,
-    image: '/images/gopro.png',
+    image: '/images/goPro.png',
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
