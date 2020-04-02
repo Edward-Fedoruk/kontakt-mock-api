@@ -1094,9 +1094,9 @@ const smallBanners = [
     id: 0,
     images: {
       big: 'https://kontakt-mock-api.herokuapp.com/images/banner-2.jpg',
-      small: 'https://kontakt-mock-api.herokuapp.com/images/banner-2.jpg/14-layers.jpg',
-      smaller: 'https://kontakt-mock-api.herokuapp.com/images/banner-2.jpg/18-layers.jpg',
-      extraSmall: 'https://kontakt-mock-api.herokuapp.com/images/banner-2.jpg/8-layers.jpg'
+      small: 'https://kontakt-mock-api.herokuapp.com/images/14-layers.jpg',
+      smaller: 'https://kontakt-mock-api.herokuapp.com/images/18-layers.jpg',
+      extraSmall: 'https://kontakt-mock-api.herokuapp.com/images/8-layers.jpg'
 
     },
   },
@@ -1104,9 +1104,9 @@ const smallBanners = [
     id: 1,
     images: {
       big: 'https://kontakt-mock-api.herokuapp.com/images/banner-3.jpg',
-      small: 'https://kontakt-mock-api.herokuapp.com/images/banner-2.jpg/13-layers.jpg',
-      smaller: 'https://kontakt-mock-api.herokuapp.com/images/banner-2.jpg/12-layersb.jpg',
-      extraSmall: 'https://kontakt-mock-api.herokuapp.com/images/banner-2.jpg/12-layers.jpg'
+      small: 'https://kontakt-mock-api.herokuapp.com/images/13-layers.jpg',
+      smaller: 'https://kontakt-mock-api.herokuapp.com/images/12-layersb.jpg',
+      extraSmall: 'https://kontakt-mock-api.herokuapp.com/images/12-layers.jpg'
     },
   },
 ];
