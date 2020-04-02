@@ -1092,11 +1092,22 @@ const salesLeaders = [
 const smallBanners = [
   {
     id: 0,
-    image: 'https://kontakt-mock-api.herokuapp.com/images/banner-2.jpg',
+    images: {
+      big: 'https://kontakt-mock-api.herokuapp.com/images/banner-2.jpg',
+      small: 'https://kontakt-mock-api.herokuapp.com/images/banner-2.jpg/14-layers.jpg',
+      smaller: 'https://kontakt-mock-api.herokuapp.com/images/banner-2.jpg/18-layers.jpg',
+      extraSmall: 'https://kontakt-mock-api.herokuapp.com/images/banner-2.jpg/8-layers.jpg'
+
+    },
   },
   {
     id: 1,
-    image: 'https://kontakt-mock-api.herokuapp.com/images/banner-3.jpg',
+    images: {
+      big: 'https://kontakt-mock-api.herokuapp.com/images/banner-3.jpg',
+      small: 'https://kontakt-mock-api.herokuapp.com/images/banner-2.jpg/13-layers.jpg',
+      smaller: 'https://kontakt-mock-api.herokuapp.com/images/banner-2.jpg/12-layersb.jpg',
+      extraSmall: 'https://kontakt-mock-api.herokuapp.com/images/banner-2.jpg/12-layers.jpg'
+    },
   },
 ];
 
@@ -2375,12 +2386,22 @@ const SubMenuCategories = [
 const wideBanners = [
   {
     id: 0,
-    image: 'https://kontakt-mock-api.herokuapp.com/images/banner-1.jpg',
+    images: {
+      big: 'https://kontakt-mock-api.herokuapp.com/images/banner-1.jpg',
+      small: 'https://kontakt-mock-api.herokuapp.com/images/45-layers.jpg',
+      smaller: 'https://kontakt-mock-api.herokuapp.com/images/45-layers.jpg/43-layers.jpg',
+      extraSmall: 'https://kontakt-mock-api.herokuapp.com/images/45-layers.jpg/8-layers.jpg'
+    }
   },
   {
     id: 1,
-    image: 'https://kontakt-mock-api.herokuapp.com/images/banner-1.jpg',
-  },
+    images: {
+      big: 'https://kontakt-mock-api.herokuapp.com/images/banner-1.jpg',
+      small: 'https://kontakt-mock-api.herokuapp.com/images/45-layers.jpg',
+      smaller: 'https://kontakt-mock-api.herokuapp.com/images/45-layers.jpg/43-layers.jpg',
+      extraSmall: 'https://kontakt-mock-api.herokuapp.com/images/45-layers.jpg/8-layers.jpg'
+    }
+  }
 ];
 
 const mostPopularProducts = convertToUuid([
