@@ -29,35 +29,35 @@ const BlogItems = [
 const generalSlides = [
   {
     id: 0,
-    images: { 
+    images: {
       big: 'https://kontakt-mock-api.herokuapp.com/images/product-image.jpg',
       medium: 'https://kontakt-mock-api.herokuapp.com/images/933c9c91470241.5e333759552df.jpg'
     }
   },
   {
     id: 1,
-    images: { 
+    images: {
       big: 'https://kontakt-mock-api.herokuapp.com/images/product-image.jpg',
       medium: 'https://kontakt-mock-api.herokuapp.com/images/933c9c91470241.5e333759552df.jpg'
     }
   },
   {
     id: 2,
-    images: { 
+    images: {
       big: 'https://kontakt-mock-api.herokuapp.com/images/product-image.jpg',
       medium: 'https://kontakt-mock-api.herokuapp.com/images/933c9c91470241.5e333759552df.jpg'
     }
   },
   {
     id: 3,
-    images: { 
+    images: {
       big: 'https://kontakt-mock-api.herokuapp.com/images/product-image.jpg',
       medium: 'https://kontakt-mock-api.herokuapp.com/images/933c9c91470241.5e333759552df.jpg'
     }
   },
   {
     id: 4,
-    images: { 
+    images: {
       big: 'https://kontakt-mock-api.herokuapp.com/images/product-image.jpg',
       medium: 'https://kontakt-mock-api.herokuapp.com/images/933c9c91470241.5e333759552df.jpg'
     }
@@ -276,7 +276,7 @@ const specialOffers = [
       },
       {
         id: 3,
-        image: 'https://kontakt-mock-api.herokuapp.com/images/goPro.png',
+        image: 'https://kontakt-mock-api.herokuapp.com/images/gopro.png',
         productName: 'Huawei',
         description: 'AI camera',
         price: 2649.99,
@@ -520,7 +520,7 @@ const specialOffers = [
       },
       {
         id: 3,
-        image: 'https://kontakt-mock-api.herokuapp.com/images/goPro.png',
+        image: 'https://kontakt-mock-api.herokuapp.com/images/gopro.png',
         productName: 'Huawei',
         description: 'AI camera',
         price: 2649.99,
@@ -774,8 +774,8 @@ const newProducts = convertToUuid([
 const newsSlides = [
   {
     id: 0,
-    images: { 
-      big:  'https://kontakt-mock-api.herokuapp.com/images/new-product.jpg',
+    images: {
+      big: 'https://kontakt-mock-api.herokuapp.com/images/new-product.jpg',
       medium: 'https://kontakt-mock-api.herokuapp.com/images/5-layers.jpg'
     }
   },
@@ -784,7 +784,7 @@ const newsSlides = [
 const promotionsSides = [
   {
     id: 0,
-    images: { 
+    images: {
       big: 'https://kontakt-mock-api.herokuapp.com/images/special-product.jpg',
       medium: 'https://kontakt-mock-api.herokuapp.com/images/6-layers.png'
     },
@@ -882,7 +882,7 @@ const salesLeaders = [
   },
   {
     id: 3,
-    image: 'https://kontakt-mock-api.herokuapp.com/images/goPro.png',
+    image: 'https://kontakt-mock-api.herokuapp.com/images/gopro.png',
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
@@ -969,7 +969,7 @@ const salesLeaders = [
   },
   {
     id: 6,
-    image: 'https://kontakt-mock-api.herokuapp.com/images/goPro.png',
+    image: 'https://kontakt-mock-api.herokuapp.com/images/gopro.png',
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
@@ -1056,7 +1056,7 @@ const salesLeaders = [
   },
   {
     id: 9,
-    image: 'https://kontakt-mock-api.herokuapp.com/images/goPro.png',
+    image: 'https://kontakt-mock-api.herokuapp.com/images/gopro.png',
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
@@ -1201,7 +1201,7 @@ const specialProducts = convertToUuid([
   },
   {
     id: 3,
-    image: 'https://kontakt-mock-api.herokuapp.com/images/goPro.png',
+    image: 'https://kontakt-mock-api.herokuapp.com/images/gopro.png',
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
@@ -1288,7 +1288,7 @@ const specialProducts = convertToUuid([
   },
   {
     id: 6,
-    image: 'https://kontakt-mock-api.herokuapp.com/images/goPro.png',
+    image: 'https://kontakt-mock-api.herokuapp.com/images/gopro.png',
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
@@ -1375,7 +1375,7 @@ const specialProducts = convertToUuid([
   },
   {
     id: 9,
-    image: 'https://kontakt-mock-api.herokuapp.com/images/goPro.png',
+    image: 'https://kontakt-mock-api.herokuapp.com/images/gopro.png',
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
