@@ -31,7 +31,8 @@ const generalSlides = [
     id: 0,
     images: {
       big: 'https://kontakt-mock-api.herokuapp.com/images/product-image.jpg',
-      medium: 'https://kontakt-mock-api.herokuapp.com/images/933c9c91470241.5e333759552df.jpg'
+      medium: 'https://kontakt-mock-api.herokuapp.com/images/933c9c91470241.5e333759552df.jpg',
+      small: 'https://kontakt-mock-api.herokuapp.com/images/933c9c91470241.5e333759552df.jpg'
     }
   },
   {
