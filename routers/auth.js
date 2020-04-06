@@ -41,7 +41,7 @@ authRouter.post('/sign-up/', (req, res) => {
   } else {
     const token = jwt.sign({ email, password, surname, name }, private_key, { expiresIn: '1d' });
     users.push({ email, password, name, surname });
-    res.status(200).send({ token });
+    res.status(200).send({ token, email, name, surname });
   }
 })
 
