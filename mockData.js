@@ -775,8 +775,9 @@ const newsSlides = [
   {
     id: 0,
     images: {
-      big: 'https://kontakt-mock-api.herokuapp.com/images/news_med.png',
-      medium: 'https://kontakt-mock-api.herokuapp.com/images/new-product.jpg'
+      big: 'https://kontakt-mock-api.herokuapp.com/images/new-product.jpg',
+      medium: 'https://kontakt-mock-api.herokuapp.com/images/news_med.jpg',
+      small: 'https://kontakt-mock-api.herokuapp.com/images/new_small.jpg'
     }
   },
 ];
@@ -785,8 +786,9 @@ const promotionsSides = [
   {
     id: 0,
     images: {
-      big: 'https://kontakt-mock-api.herokuapp.com/images/act_med.png',
-      medium: 'https://kontakt-mock-api.herokuapp.com/images/special-product.jpg'
+      big: 'https://kontakt-mock-api.herokuapp.com/images/special-product.jpg',
+      medium: 'https://kontakt-mock-api.herokuapp.com/images/act_med.jpg',
+      small: 'https://kontakt-mock-api.herokuapp.com/images/act_small.jpg'
     },
     date: '30 June 2020 14:48 UTC',
   },
