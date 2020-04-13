@@ -2397,7 +2397,7 @@ const wideBanners = [
       big: 'https://kontakt-mock-api.herokuapp.com/images/banner-1.jpg',
       medium: 'https://kontakt-mock-api.herokuapp.com/images/44-layers.png',
       small: 'https://kontakt-mock-api.herokuapp.com/images/45-layers.jpg',
-      smaller: 'https://kontakt-mock-api.herokuapp.com/images/8-layers.jpg',
+      smaller: 'https://kontakt-mock-api.herokuapp.com/images/43-layers.jpg',
       extraSmall: 'https://kontakt-mock-api.herokuapp.com/images/8-layers.jpg'
     }
   },
