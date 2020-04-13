@@ -2388,6 +2388,7 @@ const wideBanners = [
     id: 0,
     images: {
       big: 'https://kontakt-mock-api.herokuapp.com/images/banner-1.jpg',
+      medium: 'https://kontakt-mock-api.herokuapp.com/images/44-layers.png',
       small: 'https://kontakt-mock-api.herokuapp.com/images/45-layers.jpg',
       smaller: 'https://kontakt-mock-api.herokuapp.com/images/43-layers.jpg',
       extraSmall: 'https://kontakt-mock-api.herokuapp.com/images/8-layers.jpg'
@@ -2397,6 +2398,7 @@ const wideBanners = [
     id: 1,
     images: {
       big: 'https://kontakt-mock-api.herokuapp.com/images/banner-1.jpg',
+      medium: 'https://kontakt-mock-api.herokuapp.com/images/44-layers.png',
       small: 'https://kontakt-mock-api.herokuapp.com/images/45-layers.jpg',
       smaller: 'https://kontakt-mock-api.herokuapp.com/images/43-layers.jpg',
       extraSmall: 'https://kontakt-mock-api.herokuapp.com/images/8-layers.jpg'
@@ -2992,6 +2994,7 @@ module.exports = {
     category: {
       id: uuidv4(),
       name: ['phone', 'tv'][i % 2 === 0 ? 0 : 1],
-    }
+    },
+    stars: 2.5,
   }))
 };
