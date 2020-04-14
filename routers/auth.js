@@ -1,10 +1,7 @@
 const express = require('express');
-const { defaultGet } = require('../helpers');
+const private_key = require('../secret');
 const jwt =  require('jsonwebtoken');
-
 const authRouter = express.Router();
-
-const private_key = 'secret';
 
 const users = [
   {
@@ -34,7 +31,6 @@ authRouter.post('/sign-in/', (req, res) => {
 }); 
 
 authRouter.post('/sign-up/', (req, res) => {
-  console.log(req.query, req.body)
   const { email, password, name, surname } = req.body;
   if (users.find((u) => u.email === email)) {
     res.status(400).send({ error: 'user already exist' });
