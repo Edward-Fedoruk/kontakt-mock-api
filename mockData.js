@@ -1,9 +1,9 @@
 const uuidv4 = require('uuid').v4;
 const between = (min, max) => Math.floor(
   Math.random() * (max - min + 1) + min
-)
+);
 
-const convertToUuid = (xs) => xs.map((x) => ({ ...x, id: uuidv4() }))
+const convertToUuid = (xs) => xs.map((x) => ({ ...x, id: uuidv4() }));
 
 const BlogItems = [
   {
@@ -107,6 +107,7 @@ const specialOffers = [
         productName: 'airPods 2',
         description: 'With wireless charging case',
         price: 2649.99,
+        discount: 0,
         tags: [],
         likes: 981,
         installment: 'Рассрочка 12 ay 259 azn',
@@ -134,6 +135,7 @@ const specialOffers = [
         productName: 'MacBook Air 13',
         description: 'Gold 2019',
         price: 1200.99,
+        discount: 0,
         tags: [],
         likes: 99,
         installment: 'Рассрочка 12 ay 259 azn',
@@ -161,6 +163,7 @@ const specialOffers = [
         productName: 'Huawei',
         description: 'AI camera',
         price: 2649.99,
+        discount: 0,
         likes: 67,
         installment: 'Рассрочка 12 ay 259 azn',
         tags: [
