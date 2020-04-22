@@ -717,7 +717,7 @@ const newProducts = convertToUuid([
       {
         id: 2,
         specName: 'Емкость аккумулятора:',
-        spec: '6000 мА*ч',
+        spec: '6000 мА*ч',  
       },
     ],
   },
