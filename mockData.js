@@ -76,8 +76,7 @@ const specialOffers = [
       {
         id: 0,
         image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
-        productName: 'Philips TV',
-        description: 'SMART',
+        productName: 'Philips TV SMART',
         price: 1199.99,
         discount: 0,
         likes: 81,
@@ -104,8 +103,7 @@ const specialOffers = [
       {
         id: 1,
         image: 'https://kontakt-mock-api.herokuapp.com/images/airPods.png',
-        productName: 'airPods 2',
-        description: 'With wireless charging case',
+        productName: 'airPods 2 With wireless charging case',
         price: 2649.99,
         discount: 0,
         tags: [],
@@ -132,8 +130,7 @@ const specialOffers = [
       {
         id: 2,
         image: 'https://kontakt-mock-api.herokuapp.com/images/mac.png',
-        productName: 'MacBook Air 13',
-        description: 'Gold 2019',
+        productName: 'MacBook Air 13 Gold 2019',
         price: 1200.99,
         discount: 0,
         tags: [],
@@ -160,8 +157,7 @@ const specialOffers = [
       {
         id: 3,
         image: 'https://kontakt-mock-api.herokuapp.com/images/huawei.png',
-        productName: 'Huawei',
-        description: 'AI camera',
+        productName: 'Huawei AI camera',
         price: 2649.99,
         discount: 0,
         likes: 67,
@@ -199,8 +195,7 @@ const specialOffers = [
       {
         id: 0,
         image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
-        productName: 'Philips TV',
-        description: 'SMART',
+        productName: 'Philips TV SMART',
         price: 1199.99,
         discount: 0,
         likes: 864,
@@ -233,8 +228,7 @@ const specialOffers = [
       {
         id: 1,
         image: 'https://kontakt-mock-api.herokuapp.com/images/mac.png',
-        productName: 'airPods 2',
-        description: 'With wireless charging case',
+        productName: 'airPods 2 With wireless charging case',
         price: 2649.99,
         discount: 0,
         likes: 1010,
@@ -261,8 +255,7 @@ const specialOffers = [
       {
         id: 2,
         image: 'https://kontakt-mock-api.herokuapp.com/images/display.png',
-        productName: 'MacBook Air 13',
-        description: 'Gold 2019',
+        productName: 'MacBook Air 13 Gold 2019',
         price: 1200.99,
         discount: 0,
         likes: 878,
@@ -289,8 +282,7 @@ const specialOffers = [
       {
         id: 3,
         image: 'https://kontakt-mock-api.herokuapp.com/images/gopro.png',
-        productName: 'Huawei',
-        description: 'AI camera',
+        productName: 'Huawei AI camera',
         price: 2649.99,
         discount: 0,
         likes: 894,
@@ -328,8 +320,7 @@ const specialOffers = [
       {
         id: 0,
         image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
-        productName: 'Philips TV',
-        description: 'SMART',
+        productName: 'Philips TV SMART',
         price: 1199.99,
         discount: 0,
         likes: 893,
@@ -356,8 +347,7 @@ const specialOffers = [
       {
         id: 1,
         image: 'https://kontakt-mock-api.herokuapp.com/images/airPods.png',
-        productName: 'airPods 2',
-        description: 'With wireless charging case',
+        productName: 'airPods 2 With wireless charging case',
         price: 2649.99,
         discount: 60,
         tags: [],
@@ -384,8 +374,7 @@ const specialOffers = [
       {
         id: 2,
         image: 'https://kontakt-mock-api.herokuapp.com/images/mac.png',
-        productName: 'MacBook Air 13',
-        description: 'Gold 2019',
+        productName: 'MacBook Air 13 Gold 2019',
         price: 1200.99,
         discount: 60,
         likes: 111,
@@ -412,8 +401,7 @@ const specialOffers = [
       {
         id: 3,
         image: 'https://kontakt-mock-api.herokuapp.com/images/huawei.png',
-        productName: 'Huawei',
-        description: 'AI camera',
+        productName: 'Huawei AI camera',
         price: 2649.99,
         discount: 60,
         likes: 908,
@@ -451,8 +439,7 @@ const specialOffers = [
       {
         id: 0,
         image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
-        productName: 'Philips TV',
-        description: 'SMART',
+        productName: 'Philips TV SMART',
         price: 1199.99,
         discount: 0,
         likes: 190,
@@ -485,8 +472,7 @@ const specialOffers = [
       {
         id: 1,
         image: 'https://kontakt-mock-api.herokuapp.com/images/mac.png',
-        productName: 'airPods 2',
-        description: 'With wireless charging case',
+        productName: 'airPods 2 With wireless charging case',
         price: 2649.99,
         discount: 0,
         tags: [],
@@ -513,8 +499,7 @@ const specialOffers = [
       {
         id: 2,
         image: 'https://kontakt-mock-api.herokuapp.com/images/display.png',
-        productName: 'MacBook Air 13',
-        description: 'Gold 2019',
+        productName: 'MacBook Air 13 Gold 2019',
         price: 1200.99,
         discount: 0,
         likes: 464,
@@ -541,8 +526,7 @@ const specialOffers = [
       {
         id: 3,
         image: 'https://kontakt-mock-api.herokuapp.com/images/gopro.png',
-        productName: 'Huawei',
-        description: 'AI camera',
+        productName: 'Huawei AI camera',
         price: 2649.99,
         discount: 0,
         likes: 35,
@@ -580,8 +564,7 @@ const newProducts = convertToUuid([
   {
     id: 0,
     image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
-    productName: 'Philips TV',
-    description: 'SMART',
+    productName: 'Philips TV SMART',
     price: 1199.99,
     discount: 0,
     likes: 151,
@@ -608,8 +591,7 @@ const newProducts = convertToUuid([
   {
     id: 1,
     image: 'https://kontakt-mock-api.herokuapp.com/images/airPods.png',
-    productName: 'airPods 2',
-    description: 'With wireless charging case',
+    productName: 'airPods 2 With wireless charging case',
     price: 2649.99,
     discount: 0,
     likes: 6511,
@@ -636,8 +618,7 @@ const newProducts = convertToUuid([
   {
     id: 2,
     image: 'https://kontakt-mock-api.herokuapp.com/images/mac.png',
-    productName: 'MacBook Air 13',
-    description: 'Gold 2019',
+    productName: 'MacBook Air 13 Gold 2019',
     price: 1200.99,
     discount: 0,
     likes: 51,
@@ -664,8 +645,7 @@ const newProducts = convertToUuid([
   {
     id: 3,
     image: 'https://kontakt-mock-api.herokuapp.com/images/huawei.png',
-    productName: 'Huawei',
-    description: 'AI camera',
+    productName: 'Huawei AI camera',
     price: 2649.99,
     discount: 60,
     likes: 91,
@@ -698,8 +678,7 @@ const newProducts = convertToUuid([
   {
     id: 4,
     image: 'https://kontakt-mock-api.herokuapp.com/images/huawei.png',
-    productName: 'Huawei',
-    description: 'AI camera',
+    productName: 'Huawei AI camera',
     price: 2649.99,
     discount: 0,
     likes: 341,
@@ -732,8 +711,7 @@ const newProducts = convertToUuid([
   {
     id: 5,
     image: 'https://kontakt-mock-api.herokuapp.com/images/huawei.png',
-    productName: 'Huawei',
-    description: 'AI camera',
+    productName: 'Huawei AI camera',
     price: 2649.99,
     discount: 60,
     likes: 86,
@@ -766,8 +744,7 @@ const newProducts = convertToUuid([
   {
     id: 6,
     image: 'https://kontakt-mock-api.herokuapp.com/images/huawei.png',
-    productName: 'Huawei',
-    description: 'AI camera',
+    productName: 'Huawei AI camera',
     price: 2649.99,
     discount: 0,
     likes: 91,
@@ -826,8 +803,7 @@ const salesLeaders = [
   {
     id: 0,
     image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
-    productName: 'Philips TV',
-    description: 'SMART',
+    productName: 'Philips TV SMART',
     price: 1199.99,
     discount: 0,
     likes: 111,
@@ -860,8 +836,7 @@ const salesLeaders = [
   {
     id: 1,
     image: 'https://kontakt-mock-api.herokuapp.com/images/mac.png',
-    productName: 'airPods 2',
-    description: 'With wireless charging case',
+    productName: 'airPods 2 With wireless charging case',
     price: 2649.99,
     discount: 0,
     likes: 88,
@@ -888,8 +863,7 @@ const salesLeaders = [
   {
     id: 2,
     image: 'https://kontakt-mock-api.herokuapp.com/images/display.png',
-    productName: 'MacBook Air 13',
-    description: 'Gold 2019',
+    productName: 'MacBook Air 13 Gold 2019',
     price: 1200.99,
     discount: 0,
     tags: [],
@@ -916,8 +890,7 @@ const salesLeaders = [
   {
     id: 3,
     image: 'https://kontakt-mock-api.herokuapp.com/images/gopro.png',
-    productName: 'Huawei',
-    description: 'AI camera',
+    productName: 'Huawei AI camera',
     price: 2649.99,
     discount: 0,
     likes: 76,
@@ -950,8 +923,7 @@ const salesLeaders = [
   {
     id: 4,
     image: 'https://kontakt-mock-api.herokuapp.com/images/mac.png',
-    productName: 'airPods 2',
-    description: 'With wireless charging case',
+    productName: 'airPods 2 With wireless charging case',
     price: 2649.99,
     discount: 0,
     tags: [],
@@ -978,8 +950,7 @@ const salesLeaders = [
   {
     id: 5,
     image: 'https://kontakt-mock-api.herokuapp.com/images/display.png',
-    productName: 'MacBook Air 13',
-    description: 'Gold 2019',
+    productName: 'MacBook Air 13 Gold 2019',
     price: 1200.99,
     discount: 0,
     tags: [],
@@ -1006,8 +977,7 @@ const salesLeaders = [
   {
     id: 6,
     image: 'https://kontakt-mock-api.herokuapp.com/images/gopro.png',
-    productName: 'Huawei',
-    description: 'AI camera',
+    productName: 'Huawei AI camera',
     price: 2649.99,
     discount: 0,
     likes: 1113,
@@ -1040,8 +1010,7 @@ const salesLeaders = [
   {
     id: 7,
     image: 'https://kontakt-mock-api.herokuapp.com/images/mac.png',
-    productName: 'airPods 2',
-    description: 'With wireless charging case',
+    productName: 'airPods 2 With wireless charging case',
     price: 2649.99,
     discount: 0,
     likes: 911,
@@ -1068,8 +1037,7 @@ const salesLeaders = [
   {
     id: 8,
     image: 'https://kontakt-mock-api.herokuapp.com/images/display.png',
-    productName: 'MacBook Air 13',
-    description: 'Gold 2019',
+    productName: 'MacBook Air 13 Gold 2019',
     price: 1200.99,
     discount: 0,
     tags: [],
@@ -1096,8 +1064,7 @@ const salesLeaders = [
   {
     id: 9,
     image: 'https://kontakt-mock-api.herokuapp.com/images/gopro.png',
-    productName: 'Huawei',
-    description: 'AI camera',
+    productName: 'Huawei AI camera',
     price: 2649.99,
     discount: 0,
     likes: 1161,
@@ -1155,8 +1122,7 @@ const specialProducts = convertToUuid([
   {
     id: 0,
     image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
-    productName: 'Philips TV',
-    description: 'SMART',
+    productName: 'Philips TV SMART',
     price: 1199.99,
     discount: 0,
     likes: 111,
@@ -1189,8 +1155,7 @@ const specialProducts = convertToUuid([
   {
     id: 1,
     image: 'https://kontakt-mock-api.herokuapp.com/images/mac.png',
-    productName: 'airPods 2',
-    description: 'With wireless charging case',
+    productName: 'airPods 2 With wireless charging case',
     price: 2649.99,
     discount: 0,
     likes: 23,
@@ -1217,8 +1182,7 @@ const specialProducts = convertToUuid([
   {
     id: 2,
     image: 'https://kontakt-mock-api.herokuapp.com/images/display.png',
-    productName: 'MacBook Air 13',
-    description: 'Gold 2019',
+    productName: 'MacBook Air 13 Gold 2019',
     price: 1200.99,
     discount: 0,
     likes: 101,
@@ -1245,8 +1209,7 @@ const specialProducts = convertToUuid([
   {
     id: 3,
     image: 'https://kontakt-mock-api.herokuapp.com/images/gopro.png',
-    productName: 'Huawei',
-    description: 'AI camera',
+    productName: 'Huawei AI camera',
     price: 2649.99,
     discount: 0,
     likes: 67,
@@ -1279,8 +1242,7 @@ const specialProducts = convertToUuid([
   {
     id: 4,
     image: 'https://kontakt-mock-api.herokuapp.com/images/mac.png',
-    productName: 'airPods 2',
-    description: 'With wireless charging case',
+    productName: 'airPods 2 With wireless charging case',
     price: 2649.99,
     discount: 0,
     tags: [],
@@ -1307,8 +1269,7 @@ const specialProducts = convertToUuid([
   {
     id: 5,
     image: 'https://kontakt-mock-api.herokuapp.com/images/display.png',
-    productName: 'MacBook Air 13',
-    description: 'Gold 2019',
+    productName: 'MacBook Air 13 Gold 2019',
     price: 1200.99,
     discount: 0,
     likes: 11,
@@ -1335,8 +1296,7 @@ const specialProducts = convertToUuid([
   {
     id: 6,
     image: 'https://kontakt-mock-api.herokuapp.com/images/gopro.png',
-    productName: 'Huawei',
-    description: 'AI camera',
+    productName: 'Huawei AI camera',
     price: 2649.99,
     discount: 0,
     likes: 55,
@@ -1369,8 +1329,7 @@ const specialProducts = convertToUuid([
   {
     id: 7,
     image: 'https://kontakt-mock-api.herokuapp.com/images/mac.png',
-    productName: 'airPods 2',
-    description: 'With wireless charging case',
+    productName: 'airPods 2 With wireless charging case',
     price: 2649.99,
     discount: 0,
     likes: 22,
@@ -1397,8 +1356,7 @@ const specialProducts = convertToUuid([
   {
     id: 8,
     image: 'https://kontakt-mock-api.herokuapp.com/images/display.png',
-    productName: 'MacBook Air 13',
-    description: 'Gold 2019',
+    productName: 'MacBook Air 13 Gold 2019',
     price: 1200.99,
     discount: 0,
     tags: [],
@@ -1425,8 +1383,7 @@ const specialProducts = convertToUuid([
   {
     id: 9,
     image: 'https://kontakt-mock-api.herokuapp.com/images/gopro.png',
-    productName: 'Huawei',
-    description: 'AI camera',
+    productName: 'Huawei AI camera',
     price: 2649.99,
     discount: 0,
     likes: 34,
@@ -2464,7 +2421,6 @@ const mostPopularProducts = convertToUuid([
     price: 1199.99,
     discount: 0,
     slug: 'apple-iphone-11',
-    description: 'Pro 15',
     tags: [
       {
         id: 0,
@@ -2497,7 +2453,6 @@ const mostPopularProducts = convertToUuid([
     price: 1200.99,
     discount: 0,
     slug: 'apple-MacBook-11',
-    description: '64GB Black',
     tags: [
       {
         id: 0,
@@ -2530,7 +2485,6 @@ const mostPopularProducts = convertToUuid([
     price: 1200.99,
     discount: 0,
     slug: 'apple-MacBook-11',
-    description: '64GB Black',
     tags: [
       {
         id: 0,
@@ -2563,7 +2517,6 @@ const mostPopularProducts = convertToUuid([
     price: 1199.99,
     discount: 0,
     slug: 'Philips-TV',
-    description: '64GB Black',
     tags: [
       {
         id: 0,
