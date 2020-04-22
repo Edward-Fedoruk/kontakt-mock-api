@@ -2417,7 +2417,7 @@ const mostPopularProducts = convertToUuid([
   {
     id: 0,
     image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
-    productName: 'Philips TV',
+    productName: 'Philips TV SMART',
     price: 1199.99,
     discount: 0,
     slug: 'apple-iphone-11',
@@ -2449,7 +2449,7 @@ const mostPopularProducts = convertToUuid([
   {
     id: 1,
     image: 'https://kontakt-mock-api.herokuapp.com/images/mac.png',
-    productName: 'MacBook Air 13',
+    productName: 'MacBook Air 13 With Soft Case',
     price: 1200.99,
     discount: 0,
     slug: 'apple-MacBook-11',
@@ -2481,7 +2481,7 @@ const mostPopularProducts = convertToUuid([
   {
     id: 2,
     image: 'https://kontakt-mock-api.herokuapp.com/images/mac.png',
-    productName: 'MacBook Air 13',
+    productName: 'MacBook Air 13 With Case',
     price: 1200.99,
     discount: 0,
     slug: 'apple-MacBook-11',
@@ -2516,7 +2516,7 @@ const mostPopularProducts = convertToUuid([
     productName: 'Philips TV',
     price: 1199.99,
     discount: 0,
-    slug: 'Philips-TV',
+    slug: 'Philips-TV Smart TV',
     tags: [
       {
         id: 0,
