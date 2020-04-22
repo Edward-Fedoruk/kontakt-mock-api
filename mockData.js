@@ -410,7 +410,7 @@ const specialOffers = [
         productName: 'Huawei',
         description: 'AI camera',
         price: 2649.99,
-        discount: 662.5,
+        discount: 60,
         likes: 908,
         installment: 'Рассрочка 12 ay 259 azn',
         tags: [
@@ -659,7 +659,7 @@ const newProducts = convertToUuid([
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
-    discount: 662.5,
+    discount: 60,
     likes: 91,
     installment: 'Рассрочка 12 ay 259 azn',
     tags: [
@@ -727,7 +727,7 @@ const newProducts = convertToUuid([
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
-    discount: 662.5,
+    discount: 60,
     likes: 86,
     installment: 'Рассрочка 12 ay 259 azn',
     tags: [
