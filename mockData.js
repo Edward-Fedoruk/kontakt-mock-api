@@ -540,7 +540,7 @@ const specialOffers = [
       },
       {
         id: 3,
-        image: 'https://kontakt-mock-api.herokuapp.com/images/gopro.png',
+        image: 'https://kontakt-mock-api.herokuapp.com/images/gopro.png ',
         productName: 'Huawei',
         description: 'AI camera',
         price: 2649.99,
