@@ -1,9 +1,9 @@
 const uuidv4 = require('uuid').v4;
 const between = (min, max) => Math.floor(
-  Math.random() * (max - min + 1) + min
-)
+    Math.random() * (max - min + 1) + min
+);
 
-const convertToUuid = (xs) => xs.map((x) => ({ ...x, id: uuidv4() }))
+const convertToUuid = (xs) => xs.map((x) => ({ ...x, id: uuidv4() }));
 
 const BlogItems = [
   {
@@ -79,6 +79,7 @@ const specialOffers = [
         productName: 'Philips TV',
         description: 'SMART',
         price: 1199.99,
+        discount: 0,
         likes: 81,
         installment: 'Рассрочка 12 ay 259 azn',
         tags: [],
@@ -106,6 +107,7 @@ const specialOffers = [
         productName: 'airPods 2',
         description: 'With wireless charging case',
         price: 2649.99,
+        discount: 0,
         tags: [],
         likes: 981,
         installment: 'Рассрочка 12 ay 259 azn',
@@ -133,6 +135,7 @@ const specialOffers = [
         productName: 'MacBook Air 13',
         description: 'Gold 2019',
         price: 1200.99,
+        discount: 0,
         tags: [],
         likes: 99,
         installment: 'Рассрочка 12 ay 259 azn',
@@ -160,6 +163,7 @@ const specialOffers = [
         productName: 'Huawei',
         description: 'AI camera',
         price: 2649.99,
+        discount: 0,
         likes: 67,
         installment: 'Рассрочка 12 ay 259 azn',
         tags: [
@@ -198,6 +202,7 @@ const specialOffers = [
         productName: 'Philips TV',
         description: 'SMART',
         price: 1199.99,
+        discount: 0,
         likes: 864,
         installment: 'Рассрочка 12 ay 259 azn',
         tags: [
@@ -323,6 +328,7 @@ const specialOffers = [
         productName: 'Philips TV',
         description: 'SMART',
         price: 1199.99,
+        discount: 0,
         likes: 893,
         installment: 'Рассрочка 12 ay 259 azn',
         tags: [],
@@ -404,6 +410,7 @@ const specialOffers = [
         productName: 'Huawei',
         description: 'AI camera',
         price: 2649.99,
+        discount: 60,
         likes: 908,
         installment: 'Рассрочка 12 ay 259 azn',
         tags: [
@@ -442,6 +449,7 @@ const specialOffers = [
         productName: 'Philips TV',
         description: 'SMART',
         price: 1199.99,
+        discount: 0,
         likes: 190,
         installment: 'Рассрочка 12 ay 259 azn',
         tags: [
@@ -567,6 +575,7 @@ const newProducts = convertToUuid([
     productName: 'Philips TV',
     description: 'SMART',
     price: 1199.99,
+    discount: 0,
     likes: 151,
     tags: [],
     installment: 'Рассрочка 12 ay 259 azn',
@@ -594,6 +603,7 @@ const newProducts = convertToUuid([
     productName: 'airPods 2',
     description: 'With wireless charging case',
     price: 2649.99,
+    discount: 0,
     likes: 6511,
     tags: [],
     installment: 'Рассрочка 12 ay 259 azn',
@@ -621,6 +631,7 @@ const newProducts = convertToUuid([
     productName: 'MacBook Air 13',
     description: 'Gold 2019',
     price: 1200.99,
+    discount: 0,
     likes: 51,
     installment: 'Рассрочка 12 ay 259 azn',
     tags: [],
@@ -648,6 +659,7 @@ const newProducts = convertToUuid([
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
+    discount: 60,
     likes: 91,
     installment: 'Рассрочка 12 ay 259 azn',
     tags: [
@@ -681,6 +693,7 @@ const newProducts = convertToUuid([
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
+    discount: 0,
     likes: 341,
     installment: 'Рассрочка 12 ay 259 azn',
     tags: [
@@ -714,6 +727,7 @@ const newProducts = convertToUuid([
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
+    discount: 60,
     likes: 86,
     installment: 'Рассрочка 12 ay 259 azn',
     tags: [
@@ -747,6 +761,7 @@ const newProducts = convertToUuid([
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
+    discount: 0,
     likes: 91,
     installment: 'Рассрочка 12 ay 259 azn',
     tags: [
@@ -806,6 +821,7 @@ const salesLeaders = [
     productName: 'Philips TV',
     description: 'SMART',
     price: 1199.99,
+    discount: 0,
     likes: 111,
     installment: 'Рассрочка 12 ay 259 azn',
     tags: [
@@ -839,6 +855,7 @@ const salesLeaders = [
     productName: 'airPods 2',
     description: 'With wireless charging case',
     price: 2649.99,
+    discount: 0,
     likes: 88,
     installment: 'Рассрочка 12 ay 259 azn',
     tags: [],
@@ -866,6 +883,7 @@ const salesLeaders = [
     productName: 'MacBook Air 13',
     description: 'Gold 2019',
     price: 1200.99,
+    discount: 0,
     tags: [],
     likes: 98,
     installment: 'Рассрочка 12 ay 259 azn',
@@ -893,6 +911,7 @@ const salesLeaders = [
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
+    discount: 0,
     likes: 76,
     installment: 'Рассрочка 12 ay 259 azn',
     tags: [
@@ -926,6 +945,7 @@ const salesLeaders = [
     productName: 'airPods 2',
     description: 'With wireless charging case',
     price: 2649.99,
+    discount: 0,
     tags: [],
     likes: 23,
     installment: 'Рассрочка 12 ay 259 azn',
@@ -953,6 +973,7 @@ const salesLeaders = [
     productName: 'MacBook Air 13',
     description: 'Gold 2019',
     price: 1200.99,
+    discount: 0,
     tags: [],
     likes: 101,
     installment: 'Рассрочка 12 ay 259 azn',
@@ -980,6 +1001,7 @@ const salesLeaders = [
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
+    discount: 0,
     likes: 1113,
     installment: 'Рассрочка 12 ay 259 azn',
     tags: [
@@ -1013,6 +1035,7 @@ const salesLeaders = [
     productName: 'airPods 2',
     description: 'With wireless charging case',
     price: 2649.99,
+    discount: 0,
     likes: 911,
     installment: 'Рассрочка 12 ay 259 azn',
     tags: [],
@@ -1040,6 +1063,7 @@ const salesLeaders = [
     productName: 'MacBook Air 13',
     description: 'Gold 2019',
     price: 1200.99,
+    discount: 0,
     tags: [],
     likes: 511,
     installment: 'Рассрочка 12 ay 259 azn',
@@ -1067,6 +1091,7 @@ const salesLeaders = [
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
+    discount: 0,
     likes: 1161,
     installment: 'Рассрочка 12 ay 259 azn',
     tags: [
@@ -1125,6 +1150,7 @@ const specialProducts = convertToUuid([
     productName: 'Philips TV',
     description: 'SMART',
     price: 1199.99,
+    discount: 0,
     likes: 111,
     installment: 'Рассрочка 12 ay 259 azn',
     tags: [
@@ -1158,6 +1184,7 @@ const specialProducts = convertToUuid([
     productName: 'airPods 2',
     description: 'With wireless charging case',
     price: 2649.99,
+    discount: 0,
     likes: 23,
     installment: 'Рассрочка 12 ay 259 azn',
     tags: [],
@@ -1185,6 +1212,7 @@ const specialProducts = convertToUuid([
     productName: 'MacBook Air 13',
     description: 'Gold 2019',
     price: 1200.99,
+    discount: 0,
     likes: 101,
     installment: 'Рассрочка 12 ay 259 azn',
     tags: [],
@@ -1212,6 +1240,7 @@ const specialProducts = convertToUuid([
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
+    discount: 0,
     likes: 67,
     installment: 'Рассрочка 12 ay 259 azn',
     tags: [
@@ -1245,6 +1274,7 @@ const specialProducts = convertToUuid([
     productName: 'airPods 2',
     description: 'With wireless charging case',
     price: 2649.99,
+    discount: 0,
     tags: [],
     likes: 23,
     installment: 'Рассрочка 12 ay 259 azn',
@@ -1272,6 +1302,7 @@ const specialProducts = convertToUuid([
     productName: 'MacBook Air 13',
     description: 'Gold 2019',
     price: 1200.99,
+    discount: 0,
     likes: 11,
     installment: 'Рассрочка 12 ay 259 azn',
     tags: [],
@@ -1299,6 +1330,7 @@ const specialProducts = convertToUuid([
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
+    discount: 0,
     likes: 55,
     installment: 'Рассрочка 12 ay 259 azn',
     tags: [
@@ -1332,6 +1364,7 @@ const specialProducts = convertToUuid([
     productName: 'airPods 2',
     description: 'With wireless charging case',
     price: 2649.99,
+    discount: 0,
     likes: 22,
     installment: 'Рассрочка 12 ay 259 azn',
     tags: [],
@@ -1359,6 +1392,7 @@ const specialProducts = convertToUuid([
     productName: 'MacBook Air 13',
     description: 'Gold 2019',
     price: 1200.99,
+    discount: 0,
     tags: [],
     likes: 67,
     installment: 'Рассрочка 12 ay 259 azn',
@@ -1386,6 +1420,7 @@ const specialProducts = convertToUuid([
     productName: 'Huawei',
     description: 'AI camera',
     price: 2649.99,
+    discount: 0,
     likes: 34,
     installment: 'Рассрочка 12 ay 259 azn',
     tags: [
@@ -2419,6 +2454,7 @@ const mostPopularProducts = convertToUuid([
     image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
     productName: 'Philips TV',
     price: 1199.99,
+    discount: 0,
     slug: 'apple-iphone-11',
     description: 'Pro 15',
     tags: [
@@ -2451,6 +2487,7 @@ const mostPopularProducts = convertToUuid([
     image: 'https://kontakt-mock-api.herokuapp.com/images/mac.png',
     productName: 'MacBook Air 13',
     price: 1200.99,
+    discount: 0,
     slug: 'apple-MacBook-11',
     description: '64GB Black',
     tags: [
@@ -2483,6 +2520,7 @@ const mostPopularProducts = convertToUuid([
     image: 'https://kontakt-mock-api.herokuapp.com/images/mac.png',
     productName: 'MacBook Air 13',
     price: 1200.99,
+    discount: 0,
     slug: 'apple-MacBook-11',
     description: '64GB Black',
     tags: [
@@ -2515,6 +2553,7 @@ const mostPopularProducts = convertToUuid([
     image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
     productName: 'Philips TV',
     price: 1199.99,
+    discount: 0,
     slug: 'Philips-TV',
     description: '64GB Black',
     tags: [
