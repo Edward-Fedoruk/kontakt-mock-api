@@ -3,7 +3,7 @@ const between = (min, max) => Math.floor(
   Math.random() * (max - min + 1) + min
 );
 
-const convertToUuid = (xs) => xs.map((x) => ({...x, id: uuidv4()}));
+const convertToUuid = (xs) => xs.map((x) => ({ ...x, id: uuidv4() }));
 
 const BlogItems = [
   {
@@ -725,7 +725,7 @@ const newProducts = convertToUuid([
       {
         id: 2,
         specName: 'Емкость аккумулятора:',
-        spec: '6000 мА*ч',
+        spec: '6000 мА*ч',  
       },
     ],
   },
