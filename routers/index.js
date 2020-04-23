@@ -1,1 +1,1 @@
-module.exports = require('../helpers').exportDefaltImports(__dirname, __filename);
+module.exports = require('../helpers').exportDefaultImports(__dirname, __filename);
