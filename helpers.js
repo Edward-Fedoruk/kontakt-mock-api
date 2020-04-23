@@ -35,7 +35,7 @@ const defaultGet = (data) => (_, res) => res.status(200).send(data);
 
 const DefaultPaginationGet = (data) => (req, res) => res.status(200).send(handlePaginationRequest(req.query, data))
 
-const exportDefaltImports = (dirName, fileName) => {
+const exportDefaultImports = (dirName, fileName) => {
   const { join, basename, parse } = require('path');
 
   return require('fs')
@@ -51,5 +51,5 @@ const exportDefaltImports = (dirName, fileName) => {
 module.exports = {
   DefaultPaginationGet,
   defaultGet,
-  exportDefaltImports
+  exportDefaultImports
 }
