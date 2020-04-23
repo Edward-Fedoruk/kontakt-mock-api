@@ -2449,7 +2449,7 @@ const mostPopularProducts = convertToUuid([
   {
     id: 1,
     image: 'https://kontakt-mock-api.herokuapp.com/images/mac.png',
-    productName: 'MacBook Air 13 With Soft Case',
+    productName: 'MacBook Air 13 With Soft Touch Blue Case',
     price: 1200.99,
     discount: 0,
     slug: 'apple-MacBook-11',
