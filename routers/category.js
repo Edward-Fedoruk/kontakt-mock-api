@@ -11,7 +11,7 @@ categoriesRouter.get('/', (req, res) =>  {
 
   res.status(200).send({
     title: text,
-    banner: [
+    banners: [
       {
         big: 'https://kontakt-mock-api.herokuapp.com/images/ctg-banner.jpg',
         medium: 'https://kontakt-mock-api.herokuapp.com/images/ctg-banner-2.jpg',
