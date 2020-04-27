@@ -4225,7 +4225,7 @@ const categoryProducts = [
     title: "Специально для вас",
     products: newProducts
   }
-] 
+];
 
 module.exports = {
   newProducts,
@@ -4244,6 +4244,7 @@ module.exports = {
   categorySlides,
   categories,
   categoryProducts,
+  categoriesPrime,
   products: [
     ...newProducts,
     ...specialProducts,
