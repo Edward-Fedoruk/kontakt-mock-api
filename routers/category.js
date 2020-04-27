@@ -11,6 +11,9 @@ categoriesRouter.get('/', (req, res) =>  {
 
   res.status(200).send({
     title: text,
+    subCategories: [
+      { id }
+    ],
     banners: [
       {
         big: 'https://kontakt-mock-api.herokuapp.com/images/ctg-banner.jpg',
@@ -27,7 +30,13 @@ categoriesRouter.get('/', (req, res) =>  {
         extraSmall: 'https://kontakt-mock-api.herokuapp.com/images/ctg-banner-5.jpg'
       } 
     ],
-    categoryProducts
+    categoryProducts,
+    seo: {
+      title: 'Мобильные телефоны в Kontakt Home!',
+      paragraph1: 'Contact Home предлагает лучшие предложения для тех, кто хочет купить мобильные телефоны. Предлагаемые вам модели мобильных телефонов - это всемирно известные Apple, Asus, HTC, LG, Huawei, Xiaomi,  Nokia, Samsung и другие. это продукция брендов. В настоящее время многие технологические бренды выпускают  смартфоны. Конкуренция в телефонной индустрии растет день ото дня, и бренды внедряют последние инновации.  В настоящее время растет спрос на мобильные телефоны с операционными системами Android и iOS.',
+      paragraph2: 'Contact Home предлагает лучшие предложения для тех, кто хочет купить мобильные телефоны. Предлагаемые вам модели мобильных телефонов - это всемирно известные Apple, Asus, HTC, LG, Huawei, Xiaomi,  Nokia, Samsung и другие. это продукция брендов. В настоящее время многие технологические бренды выпускают  смартфоны. Конкуренция в телефонной индустрии растет день ото дня, и бренды внедряют последние инновации.  В настоящее время растет спрос на мобильные телефоны с операционными системами Android и iOS.',
+      tags: ['apple', 'samsung', 'Hofman', 'дешевые телефоны', 'Телефон Xiaomi']
+    }
   })
 });
 
