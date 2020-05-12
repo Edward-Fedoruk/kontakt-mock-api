@@ -21,7 +21,7 @@ menuRouter.get('/', (req, res) => {
       }))
     }))
   }));
-  res.send(menu).status(200)
+  res.send({ menu }).status(200)
 })
 
 module.exports = menuRouter;
