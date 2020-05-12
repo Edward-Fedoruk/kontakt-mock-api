@@ -7397,7 +7397,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Бренды',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -7452,7 +7452,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Быстрый выбор',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -7507,7 +7507,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Фронтальная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -7562,7 +7562,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Основная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -7658,7 +7658,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Бренды',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -7713,7 +7713,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Быстрый выбор',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -7768,7 +7768,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Фронтальная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -7823,7 +7823,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Основная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -7885,7 +7885,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Бренды',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -7940,7 +7940,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Быстрый выбор',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -7995,7 +7995,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Фронтальная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -8050,7 +8050,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Основная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -8146,7 +8146,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Бренды',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -8201,7 +8201,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Быстрый выбор',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -8256,7 +8256,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Фронтальная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -8311,7 +8311,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Основная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -8407,7 +8407,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Бренды',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -8462,7 +8462,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Быстрый выбор',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -8517,7 +8517,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Фронтальная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -8572,7 +8572,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Основная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -8634,7 +8634,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Бренды',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -8689,7 +8689,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Быстрый выбор',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -8744,7 +8744,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Фронтальная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -8799,7 +8799,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Основная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -8895,7 +8895,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Бренды',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -8950,7 +8950,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Быстрый выбор',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -9005,7 +9005,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Фронтальная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -9060,7 +9060,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Основная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -9156,7 +9156,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Бренды',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -9211,7 +9211,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Быстрый выбор',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -9266,7 +9266,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Фронтальная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -9321,7 +9321,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Основная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -9383,7 +9383,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Бренды',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -9438,7 +9438,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Быстрый выбор',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -9493,7 +9493,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Фронтальная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -9548,7 +9548,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Основная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -9644,7 +9644,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Бренды',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -9699,7 +9699,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Быстрый выбор',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -9754,7 +9754,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Фронтальная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -9809,7 +9809,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Основная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -9905,7 +9905,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Бренды',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -9960,7 +9960,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Быстрый выбор',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -10015,7 +10015,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Фронтальная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -10070,7 +10070,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Основная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -10132,7 +10132,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Бренды',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -10187,7 +10187,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Быстрый выбор',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -10242,7 +10242,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Фронтальная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -10297,7 +10297,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Основная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -10393,7 +10393,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Бренды',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -10448,7 +10448,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Быстрый выбор',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -10503,7 +10503,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Фронтальная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -10558,7 +10558,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Основная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -10654,7 +10654,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Бренды',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -10709,7 +10709,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Быстрый выбор',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -10764,7 +10764,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Фронтальная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -10819,7 +10819,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Основная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -10881,7 +10881,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Бренды',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -10936,7 +10936,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Быстрый выбор',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -10991,7 +10991,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Фронтальная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
@@ -11046,7 +11046,7 @@ const spreadedCategories = [
           {
             id: uuidv4(), 
             name: 'Основная камера',
-            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1368468_perfezza_peh-2077_8@2x.png',
+            thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
             categories: [
               {
                 id: uuidv4(),
