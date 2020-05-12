@@ -1,13 +1,11 @@
 const express = require('express');
-const { SubMenuCategories, spreadedCategories } = require('../mockData');
+const { spreadCategories } = require('../mockData');
 const { defaultGet } = require('../helpers');
 
 const menuRouter = express.Router();
 
-menuRouter.get('/submenu-categories', defaultGet(SubMenuCategories));
-
 menuRouter.get('/', (req, res) => {
-  const menu = spreadedCategories.map(({ id, name, thumbIcon, subCategories }) => ({
+  const menu = spreadCategories.map(({ id, name, thumbIcon, subCategories }) => ({
     id,
     name,
     thumbIcon,
