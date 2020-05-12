@@ -4227,6 +4227,2902 @@ const categoryProducts = [
   }
 ];
 
+const subCategories = [
+  {
+    id: uuidv4(),
+    title: 'смартфоны',
+    items: [
+      {
+        id: uuidv4(),
+        image: 'https://kontakt-mock-api.herokuapp.com/images/sub-ctg.jpg'
+      }
+    ]
+  }
+]
+
+const products = [
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 119.99,
+    discount: 0,
+    likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    colors: [
+      '#ec190b',
+      '#606e7d'
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 1199.99,
+    colors: [
+      '#0000',
+      '#ffff'
+    ],
+    discount: 0,
+    slug: 'apple-iphone-11',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 119.99,
+    discount: 0,
+    likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    colors: [
+      '#ec190b',
+      '#606e7d'
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 1199.99,
+    colors: [
+      '#0000',
+      '#ffff'
+    ],
+    discount: 0,
+    slug: 'apple-iphone-11',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 119.99,
+    discount: 0,
+    likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    colors: [
+      '#ec190b',
+      '#606e7d'
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 1199.99,
+    colors: [
+      '#0000',
+      '#ffff'
+    ],
+    discount: 0,
+    slug: 'apple-iphone-11',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 119.99,
+    discount: 0,
+    likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    colors: [
+      '#ec190b',
+      '#606e7d'
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 1199.99,
+    colors: [
+      '#0000',
+      '#ffff'
+    ],
+    discount: 0,
+    slug: 'apple-iphone-11',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 119.99,
+    discount: 0,
+    likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    colors: [
+      '#ec190b',
+      '#606e7d'
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 1199.99,
+    colors: [
+      '#0000',
+      '#ffff'
+    ],
+    discount: 0,
+    slug: 'apple-iphone-11',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 119.99,
+    discount: 0,
+    likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    colors: [
+      '#ec190b',
+      '#606e7d'
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 1199.99,
+    colors: [
+      '#0000',
+      '#ffff'
+    ],
+    discount: 0,
+    slug: 'apple-iphone-11',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 119.99,
+    discount: 0,
+    likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    colors: [
+      '#ec190b',
+      '#606e7d'
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 1199.99,
+    colors: [
+      '#0000',
+      '#ffff'
+    ],
+    discount: 0,
+    slug: 'apple-iphone-11',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 119.99,
+    discount: 0,
+    likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    colors: [
+      '#ec190b',
+      '#606e7d'
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 1199.99,
+    colors: [
+      '#0000',
+      '#ffff'
+    ],
+    discount: 0,
+    slug: 'apple-iphone-11',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 119.99,
+    discount: 0,
+    likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    colors: [
+      '#ec190b',
+      '#606e7d'
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 1199.99,
+    colors: [
+      '#0000',
+      '#ffff'
+    ],
+    discount: 0,
+    slug: 'apple-iphone-11',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 119.99,
+    discount: 0,
+    likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    colors: [
+      '#ec190b',
+      '#606e7d'
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 1199.99,
+    colors: [
+      '#0000',
+      '#ffff'
+    ],
+    discount: 0,
+    slug: 'apple-iphone-11',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 119.99,
+    discount: 0,
+    likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    colors: [
+      '#ec190b',
+      '#606e7d'
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 1199.99,
+    colors: [
+      '#0000',
+      '#ffff'
+    ],
+    discount: 0,
+    slug: 'apple-iphone-11',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 119.99,
+    discount: 0,
+    likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    colors: [
+      '#ec190b',
+      '#606e7d'
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 1199.99,
+    colors: [
+      '#0000',
+      '#ffff'
+    ],
+    discount: 0,
+    slug: 'apple-iphone-11',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 119.99,
+    discount: 0,
+    likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    colors: [
+      '#ec190b',
+      '#606e7d'
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 1199.99,
+    colors: [
+      '#0000',
+      '#ffff'
+    ],
+    discount: 0,
+    slug: 'apple-iphone-11',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 119.99,
+    discount: 0,
+    likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    colors: [
+      '#ec190b',
+      '#606e7d'
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 1199.99,
+    colors: [
+      '#0000',
+      '#ffff'
+    ],
+    discount: 0,
+    slug: 'apple-iphone-11',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 119.99,
+    discount: 0,
+    likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    colors: [
+      '#ec190b',
+      '#606e7d'
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 1199.99,
+    colors: [
+      '#0000',
+      '#ffff'
+    ],
+    discount: 0,
+    slug: 'apple-iphone-11',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 119.99,
+    discount: 0,
+    likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    colors: [
+      '#ec190b',
+      '#606e7d'
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 1199.99,
+    colors: [
+      '#0000',
+      '#ffff'
+    ],
+    discount: 0,
+    slug: 'apple-iphone-11',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 119.99,
+    discount: 0,
+    likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    colors: [
+      '#ec190b',
+      '#606e7d'
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 1199.99,
+    colors: [
+      '#0000',
+      '#ffff'
+    ],
+    discount: 0,
+    slug: 'apple-iphone-11',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 119.99,
+    discount: 0,
+    likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    colors: [
+      '#ec190b',
+      '#606e7d'
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 1199.99,
+    colors: [
+      '#0000',
+      '#ffff'
+    ],
+    discount: 0,
+    slug: 'apple-iphone-11',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 119.99,
+    discount: 0,
+    likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    colors: [
+      '#ec190b',
+      '#606e7d'
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 1199.99,
+    colors: [
+      '#0000',
+      '#ffff'
+    ],
+    discount: 0,
+    slug: 'apple-iphone-11',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 119.99,
+    discount: 0,
+    likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    colors: [
+      '#ec190b',
+      '#606e7d'
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 1199.99,
+    colors: [
+      '#0000',
+      '#ffff'
+    ],
+    discount: 0,
+    slug: 'apple-iphone-11',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 119.99,
+    discount: 0,
+    likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    colors: [
+      '#ec190b',
+      '#606e7d'
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 1199.99,
+    colors: [
+      '#0000',
+      '#ffff'
+    ],
+    discount: 0,
+    slug: 'apple-iphone-11',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 119.99,
+    discount: 0,
+    likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    colors: [
+      '#ec190b',
+      '#606e7d'
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 1199.99,
+    colors: [
+      '#0000',
+      '#ffff'
+    ],
+    discount: 0,
+    slug: 'apple-iphone-11',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 119.99,
+    discount: 0,
+    likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    colors: [
+      '#ec190b',
+      '#606e7d'
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 1199.99,
+    colors: [
+      '#0000',
+      '#ffff'
+    ],
+    discount: 0,
+    slug: 'apple-iphone-11',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 119.99,
+    discount: 0,
+    likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    colors: [
+      '#ec190b',
+      '#606e7d'
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 1199.99,
+    colors: [
+      '#0000',
+      '#ffff'
+    ],
+    discount: 0,
+    slug: 'apple-iphone-11',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 119.99,
+    discount: 0,
+    likes: 11,
+    installment: 'Рассрочка 12 ay 259 azn',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    colors: [
+      '#ec190b',
+      '#606e7d'
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    image: 'https://kontakt-mock-api.herokuapp.com/images/TV.png',
+    productImages: [
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+      'https://kontakt-mock-api.herokuapp.com/images/marshall.png',
+    ],
+    productName: 'Philips TV SMART',
+    price: 1199.99,
+    colors: [
+      '#0000',
+      '#ffff'
+    ],
+    discount: 0,
+    slug: 'apple-iphone-11',
+    tags: [
+      {
+        id: 0,
+        color: true,
+        text: 'NEW',
+      },
+    ],
+    specs: [
+      {
+        id: 0,
+        specName: 'Размер экрана:',
+        spec: '6,3',
+      },
+      {
+        id: 1,
+        specName: 'RAM-ROM:',
+        spec: '4 ГБ / 64 ГБ',
+      },
+      {
+        id: 2,
+        specName: 'Емкость аккумулятора:',
+        spec: '6000 мА*ч',
+      },
+    ],
+  },
+  
+]
+
+const categoriesFlow = [
+  {
+    id: uuidv4(),
+    name: 'Бытовая Техника',
+    thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/menu5.svg',
+    categoryBanners: [
+      'https://kontakt-mock-api.herokuapp.com/images/14-layers.jpg',
+      'https://kontakt-mock-api.herokuapp.com/images/14-layers.jpg',
+      'https://kontakt-mock-api.herokuapp.com/images/14-layers.jpg',
+    ],
+    seoBlock: {
+      title: 'Бытовая Техника в Kontakt Home!',
+      description: [
+        {
+          id: uuidv4(), 
+          paragraph: [
+            'Contact Home предлагает лучшие предложения для тех, кто хочет купить мобильные телефоны. Предлагаемые вам модели мобильных телефонов - это всемирно известные Apple, Asus, HTC, LG, Huawei, Xiaomi, Nokia, Samsung и другие. это продукция брендов. В настоящее время многие технологические бренды выпускают смартфоны. Конкуренция в телефонной индустрии растет день ото дня, и бренды внедряют последние инновации.В настоящее время растет спрос на мобильные телефоны с операционными системами Android и iOS. ',
+          ]
+        },
+        {
+          id: uuidv4(), 
+          paragraph: [
+            'Contact Home предлагает лучшие предложения для тех, кто хочет купить мобильные телефоны. Предлагаемые вам модели мобильных телефонов - это всемирно известные Apple, Asus, HTC, LG, Huawei, Xiaomi, Nokia, Samsung и другие. это продукция брендов. В настоящее время многие технологические бренды выпускают смартфоны. Конкуренция в телефонной индустрии растет день ото дня, и бренды внедряют последние инновации.В настоящее время растет спрос на мобильные телефоны с операционными системами Android и iOS. ',
+          ]
+        }
+      ],
+      tags: [
+        { id: 'apple', link: '#' },
+        { id: 'samsung', link: '#' },
+        { id: 'дешевые телефоны', link: '#' }
+      ]
+    },
+    subCategories: [
+      {
+        id: uuidv4(),
+        name: 'Холодильники',
+        thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/iPhone.png',
+        filters: [
+          {
+            id: uuidv4(), 
+            name: 'Бренды',
+            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
+            categories: [
+              {
+                id: uuidv4(),
+                name: 'Apple',
+                count: 1,
+                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Samsung',
+                count: 36,
+                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Xiaomi',
+                count: 16,
+                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Honor',
+                count: 5,
+                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Apple',
+                count: 1,
+                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Samsung',
+                count: 10,
+                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Xiaomi',
+                count: 7,
+                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Honor',
+                count: 40,
+                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+              },
+            ]
+          },
+          {
+            id: uuidv4(), 
+            name: 'Быстрый выбор',
+            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
+            categories: [
+              {
+                id: uuidv4(),
+                name: 'Apple',
+                count: 1,
+                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Samsung',
+                count: 36,
+                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Xiaomi',
+                count: 16,
+                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Honor',
+                count: 5,
+                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Apple',
+                count: 1,
+                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Samsung',
+                count: 10,
+                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Xiaomi',
+                count: 7,
+                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Honor',
+                count: 40,
+                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+              },
+            ]
+          },
+          {
+            id: uuidv4(), 
+            name: 'Фронтальная камера',
+            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
+            categories: [
+              {
+                id: uuidv4(),
+                name: 'Apple',
+                count: 1,
+                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Samsung',
+                count: 36,
+                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Xiaomi',
+                count: 16,
+                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Honor',
+                count: 5,
+                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Apple',
+                count: 1,
+                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Samsung',
+                count: 10,
+                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Xiaomi',
+                count: 7,
+                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Honor',
+                count: 40,
+                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+              },
+            ]
+          },
+          {
+            id: uuidv4(), 
+            name: 'Основная камера',
+            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
+            categories: [
+              {
+                id: uuidv4(),
+                name: 'Apple',
+                count: 1,
+                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Samsung',
+                count: 36,
+                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Xiaomi',
+                count: 16,
+                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Honor',
+                count: 5,
+                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Apple',
+                count: 1,
+                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Samsung',
+                count: 10,
+                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Xiaomi',
+                count: 7,
+                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Honor',
+                count: 40,
+                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+              },
+            ]
+          },
+        ],
+      },
+    ]
+  },
+  {
+    id: uuidv4(),
+    name: 'Смартфоны',
+    thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/menu1.svg',
+    categoryBanners: [
+      'https://kontakt-mock-api.herokuapp.com/images/14-layers.jpg',
+      'https://kontakt-mock-api.herokuapp.com/images/14-layers.jpg',
+      'https://kontakt-mock-api.herokuapp.com/images/14-layers.jpg',
+    ],
+    seoBlock: {
+      title: 'Мобильные телефоны в Kontakt Home!',
+      description: [
+        {
+          id: uuidv4(), 
+          paragraph: [
+            'Contact Home предлагает лучшие предложения для тех, кто хочет купить мобильные телефоны. Предлагаемые вам модели мобильных телефонов - это всемирно известные Apple, Asus, HTC, LG, Huawei, Xiaomi, Nokia, Samsung и другие. это продукция брендов. В настоящее время многие технологические бренды выпускают смартфоны. Конкуренция в телефонной индустрии растет день ото дня, и бренды внедряют последние инновации.В настоящее время растет спрос на мобильные телефоны с операционными системами Android и iOS. ',
+          ]
+        },
+        {
+          id: uuidv4(), 
+          paragraph: [
+            'Contact Home предлагает лучшие предложения для тех, кто хочет купить мобильные телефоны. Предлагаемые вам модели мобильных телефонов - это всемирно известные Apple, Asus, HTC, LG, Huawei, Xiaomi, Nokia, Samsung и другие. это продукция брендов. В настоящее время многие технологические бренды выпускают смартфоны. Конкуренция в телефонной индустрии растет день ото дня, и бренды внедряют последние инновации.В настоящее время растет спрос на мобильные телефоны с операционными системами Android и iOS. ',
+          ]
+        }
+      ],
+      tags: [
+        { id: 'apple', link: '#' },
+        { id: 'samsung', link: '#' },
+        { id: 'дешевые телефоны', link: '#' }
+      ]
+    },
+    subCategories: [
+      {
+        id: uuidv4(),
+        name: 'Большие',
+        thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/iPhone.png',
+        filters: [
+          {
+            id: uuidv4(), 
+            name: 'Бренды',
+            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
+            categories: [
+              {
+                id: uuidv4(),
+                name: 'Apple',
+                count: 1,
+                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Samsung',
+                count: 36,
+                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Xiaomi',
+                count: 16,
+                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Honor',
+                count: 5,
+                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Apple',
+                count: 1,
+                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Samsung',
+                count: 10,
+                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Xiaomi',
+                count: 7,
+                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Honor',
+                count: 40,
+                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+              },
+            ]
+          },
+          {
+            id: uuidv4(), 
+            name: 'Быстрый выбор',
+            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
+            categories: [
+              {
+                id: uuidv4(),
+                name: 'Apple',
+                count: 1,
+                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Samsung',
+                count: 36,
+                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Xiaomi',
+                count: 16,
+                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Honor',
+                count: 5,
+                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Apple',
+                count: 1,
+                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Samsung',
+                count: 10,
+                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Xiaomi',
+                count: 7,
+                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Honor',
+                count: 40,
+                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+              },
+            ]
+          },
+          {
+            id: uuidv4(), 
+            name: 'Фронтальная камера',
+            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
+            categories: [
+              {
+                id: uuidv4(),
+                name: 'Apple',
+                count: 1,
+                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Samsung',
+                count: 36,
+                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Xiaomi',
+                count: 16,
+                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Honor',
+                count: 5,
+                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Apple',
+                count: 1,
+                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Samsung',
+                count: 10,
+                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Xiaomi',
+                count: 7,
+                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Honor',
+                count: 40,
+                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+              },
+            ]
+          },
+          {
+            id: uuidv4(), 
+            name: 'Основная камера',
+            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
+            categories: [
+              {
+                id: uuidv4(),
+                name: 'Apple',
+                count: 1,
+                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Samsung',
+                count: 36,
+                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Xiaomi',
+                count: 16,
+                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Honor',
+                count: 5,
+                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Apple',
+                count: 1,
+                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Samsung',
+                count: 10,
+                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Xiaomi',
+                count: 7,
+                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Honor',
+                count: 40,
+                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+              },
+            ]
+          },
+        ],
+      },
+      {
+        id: uuidv4(),
+        thumbIcon: 'https://kontakt-mock-api.herokuapp.com/images/iPhone.png',
+        name: 'Маленькие',
+        filters: [
+          {
+            id: uuidv4(), 
+            name: 'Бренды',
+            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
+            categories: [
+              {
+                id: uuidv4(),
+                name: 'Apple',
+                count: 1,
+                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Samsung',
+                count: 36,
+                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Xiaomi',
+                count: 16,
+                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Honor',
+                count: 5,
+                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Apple',
+                count: 1,
+                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Samsung',
+                count: 10,
+                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Xiaomi',
+                count: 7,
+                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Honor',
+                count: 40,
+                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+              },
+            ]
+          },
+          {
+            id: uuidv4(), 
+            name: 'Быстрый выбор',
+            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
+            categories: [
+              {
+                id: uuidv4(),
+                name: 'Apple',
+                count: 1,
+                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Samsung',
+                count: 36,
+                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Xiaomi',
+                count: 16,
+                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Honor',
+                count: 5,
+                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Apple',
+                count: 1,
+                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Samsung',
+                count: 10,
+                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Xiaomi',
+                count: 7,
+                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Honor',
+                count: 40,
+                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+              },
+            ]
+          },
+          {
+            id: uuidv4(), 
+            name: 'Фронтальная камера',
+            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
+            categories: [
+              {
+                id: uuidv4(),
+                name: 'Apple',
+                count: 1,
+                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Samsung',
+                count: 36,
+                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Xiaomi',
+                count: 16,
+                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Honor',
+                count: 5,
+                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Apple',
+                count: 1,
+                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Samsung',
+                count: 10,
+                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Xiaomi',
+                count: 7,
+                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Honor',
+                count: 40,
+                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+              },
+            ]
+          },
+          {
+            id: uuidv4(), 
+            name: 'Основная камера',
+            thumbIcon: 'https://kontakt-mok-api.herokuapp.com/images/1457064_vestfrost_vfc09va_13@2x.png',
+            categories: [
+              {
+                id: uuidv4(),
+                name: 'Apple',
+                count: 1,
+                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Samsung',
+                count: 36,
+                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Xiaomi',
+                count: 16,
+                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Honor',
+                count: 5,
+                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Apple',
+                count: 1,
+                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Samsung',
+                count: 10,
+                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Xiaomi',
+                count: 7,
+                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+              },
+              {
+                id: uuidv4(),
+                name: 'Honor',
+                count: 40,
+                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+              },
+            ]
+          },
+        ],
+      }
+    ]
+  },
+]
+ 
+const spreadedCategories = Array(5).fill(categoriesFlow).flat()
+
 module.exports = {
   newProducts,
   specialProducts,
@@ -4241,8 +7137,8 @@ module.exports = {
   generalSlides,
   specialOffers,
   categories,
+  spreadedCategories,
   categorySlides,
-  categories,
   categoryProducts,
   categoriesPrime,
   products: [
