@@ -13,13 +13,15 @@ categoriesRouter.get('/', (req, res) =>  {
     subCategories
   } = spreadCategories.find((ctg) => ctg.id === req.query.id);
 
-  res.status(200).send({ 
-    id, 
-    name,
-    categoryBanners, 
-    seoBlock, 
-    tags,
-    subCategories,
+  res.status(200).send({
+    category: {
+      id, 
+      name,
+      categoryBanners, 
+      seoBlock, 
+      tags,
+      subCategories,
+    }
   })
 });
 

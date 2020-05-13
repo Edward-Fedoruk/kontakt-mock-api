@@ -6428,49 +6428,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -6483,49 +6483,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -6538,49 +6538,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -6593,49 +6593,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -6689,49 +6689,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -6744,49 +6744,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -6799,49 +6799,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -6854,49 +6854,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -6916,49 +6916,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -6971,49 +6971,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -7026,49 +7026,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -7081,49 +7081,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -7177,49 +7177,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -7232,49 +7232,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -7287,49 +7287,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -7342,49 +7342,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -7438,49 +7438,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -7493,49 +7493,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -7548,49 +7548,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -7603,49 +7603,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -7665,49 +7665,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -7720,49 +7720,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -7775,49 +7775,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -7830,49 +7830,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -7926,49 +7926,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -7981,49 +7981,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -8036,49 +8036,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -8091,49 +8091,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -8187,49 +8187,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -8242,49 +8242,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -8297,49 +8297,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -8352,49 +8352,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -8414,49 +8414,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -8469,49 +8469,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -8524,49 +8524,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -8579,49 +8579,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -8675,49 +8675,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -8730,49 +8730,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -8785,49 +8785,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -8840,49 +8840,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -8936,49 +8936,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -8991,49 +8991,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -9046,49 +9046,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -9101,49 +9101,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -9163,49 +9163,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -9218,49 +9218,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -9273,49 +9273,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -9328,49 +9328,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -9424,49 +9424,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -9479,49 +9479,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -9534,49 +9534,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -9589,49 +9589,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -9685,49 +9685,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -9740,49 +9740,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -9795,49 +9795,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -9850,49 +9850,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -9912,49 +9912,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -9967,49 +9967,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -10022,49 +10022,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
@@ -10077,49 +10077,49 @@ const spreadCategories = [
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 36,
-                priductsIds: [...products.map((p) => p.i).slice(0, 36)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 36)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 16,
-                priductsIds: [...products.map((p) => p.i).slice(0, 16)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 16)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 5,
-                priductsIds: [...products.map((p) => p.i).slice(0, 5)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 5)]
               },
               {
                 id: uuidv4(),
                 name: 'Apple',
                 count: 1,
-                priductsIds: [...products.map((p) => p.i).slice(0, 1)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 1)]
               },
               {
                 id: uuidv4(),
                 name: 'Samsung',
                 count: 10,
-                priductsIds: [...products.map((p) => p.i).slice(0, 10)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 10)]
               },
               {
                 id: uuidv4(),
                 name: 'Xiaomi',
                 count: 7,
-                priductsIds: [...products.map((p) => p.i).slice(0, 7)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 7)]
               },
               {
                 id: uuidv4(),
                 name: 'Honor',
                 count: 40,
-                priductsIds: [...products.map((p) => p.i).slice(0, 40)]
+                priductsIds: [...products.map((p) => p.id).slice(0, 40)]
               },
             ]
           },
