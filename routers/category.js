@@ -1,5 +1,5 @@
 const express = require('express');
-const { spreadCategories } = require('../mockData');
+const { spreadCategories, products } = require('../mockData');
 
 const categoriesRouter = express.Router();
 
@@ -20,7 +20,10 @@ categoriesRouter.get('/', (req, res) =>  {
       categoryBanners, 
       seoBlock, 
       tags,
-      subCategories,
+      subCategories: subCategories.map(s => ({
+        ...s,
+        featuredProducts: [...products.map((p) => p).slice(0, 4)]
+      })),
     }
   })
 });
