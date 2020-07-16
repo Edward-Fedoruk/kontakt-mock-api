@@ -1278,7 +1278,7 @@ const promotionsSides = [
       medium: 'https://kontakt-mock-api.herokuapp.com/images/act_med.jpg',
       small: 'https://kontakt-mock-api.herokuapp.com/images/act_small.jpg'
     },
-    date: '30 June 2020 14:48 UTC',
+    date: '30 June 2021 14:48 UTC',
   },
 ];
 
